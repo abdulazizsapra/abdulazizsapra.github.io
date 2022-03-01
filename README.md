@@ -1,1 +1,0 @@
-# abdulazizsapra.github.io
