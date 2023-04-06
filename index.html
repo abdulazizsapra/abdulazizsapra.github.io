@@ -1,856 +1,610 @@
-<!doctype html>
-
+<!DOCTYPE html>
 <html lang="en">
 
-
 <head>
-
-    <title>Abdul Aziz Sapra</title>
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="description" content="">
-
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-
-    <!-- Google Font: Lato -->
-    <link
-        href='https://fonts.googleapis.com/css?family=Lato:400,100,100italic,300,300italic,400italic,700,700italic,900,900italic&amp;subset=latin,latin-ext'
-        rel='stylesheet' type='text/css'>
-
-    <!-- FontAwesome -->
-    <link rel="stylesheet" href="assets/plugins/font-awesome/css/fontawesome.min.css">
-    <link rel="stylesheet" href="assets/plugins/font-awesome/css/brands.min.css">
-
-    <!-- Nivo Lightbox-->
-    <link rel="stylesheet" href="assets/plugins/nivo-lightbox/nivo-lightbox.css" />
-    <link rel="stylesheet" href="assets/plugins/nivo-lightbox/themes/default/default.css" />
-
-    <!-- Main CSS -->
-    <link rel="stylesheet" href="assets/css/main.css">
-
-    <!-- Themes -->
-    <!--<link rel="stylesheet" href="assets/css/themes.light.css">-->
-    <link rel="stylesheet" href="assets/css/themes.dark.css">
-
-    <!-- Custom CSS -->
-    <!--<link rel="stylesheet" href="assets/css/custom.css">-->
-
-    <!-- jQuery -->
-    <script src="assets/js/jquery.min.js"></script>
-
-    <!-- dense.js (Retina plugin) -->
-    <script src="assets/js/dense.js"></script>
-
-    <!-- Nivo Lightbox -->
-    <script src="assets/plugins/nivo-lightbox/nivo-lightbox.min.js"></script>
-
-    <!-- ScrollReveal -->
-    <script src="assets/js/scrollreveal.min.js"></script>
-
-    <!-- Main JS -->
-    <script src="assets/js/main.js"></script>
-
+    <meta name="author" content="">
+    <title>Abdul Aziz Sapra</title>
+    <link rel="stylesheet" href="assets/css/color.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Mono|Inconsolata" rel="stylesheet">
+    <link href="https://cdn.materialdesignicons.com/2.0.46/css/materialdesignicons.min.css" rel="stylesheet">
 </head>
 
 <body>
 
-    <div class="c-preloader  js-preloader">
-        <div class="c-preloader__spinner  t-preloader__spinner"></div>
+    <!--Switcher-->
+    <div class="style-switcher">
+        <span class="style-switcher__control"></span>
+        <div class="style-switcher__list">
+            <a class="style-switcher__link style-switcher__link--color"></a>
+            <a class="style-switcher__link style-switcher__link--mono"></a>
+        </div>
     </div>
+    <!--Switcher-->
 
-    <div class="c-main-container  js-main-container">
+    <!--Main menu-->
+    <div class="menu">
+        <div class="container">
+            <div class="row">
+                <div class="menu__wrapper d-none d-lg-block col-md-12">
+                    <nav class="">
+                        <ul>
+                            <li><a href="#hello">Hello</a></li>
+                            <li><a href="#resume">Resume</a></li>
+                            <li><a href="#portfolio">Portfolio</a></li>
+                            <li><a href="#testimonials">testimonials</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="menu__wrapper col-md-12 d-lg-none">
+                    <button type="button" class="menu__mobile-button">
+                        <span><i class="fa fa-bars" aria-hidden="true"></i></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Main menu-->
 
+    <!-- Mobile menu -->
+    <div class="mobile-menu d-lg-none">
+        <div class="container">
+            <div class="mobile-menu__close">
+                <span><i class="mdi mdi-close" aria-hidden="true"></i></span>
+            </div>
+            <nav class="mobile-menu__wrapper">
+                <ul>
+                    <li><a href="#hello">Hello</a></li>
+                    <li><a href="#resume">Resume</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#testimonials">testimonials</a></li>
+                    <li><a href="#blog">blog</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <!-- Mobile menu -->
 
+    <!--Header-->
+    <header class="main-header" style="background-image: url(assets/img/img_bg_header.jpg)">
+        <div class="container">
+            <div class="row personal-profile">
+                <div class="col-md-4 personal-profile__avatar">
+                    <img class="" src="assets/img/main.png" alt="avatar">
+                </div>
+                <div class="col-md-8">
+                    <p class="personal-profile__name">Abdul Aziz Sapra_</p>
+                    <p class="personal-profile__work">Full Stack Developer</p>
+                    <div class="personal-profile__contacts">
+                        <dl class="contact-list contact-list__opacity-titles">
 
-        <!-- ################################ -->
-        <!-- ############ HEADER ############ -->
-        <!-- ################################ -->
+                            <dt>Phone:</dt>
+                            <dd><a href="tel:923464569610">+61451556175</a></dd>
+                            <dt>Email:</dt>
+                            <dd><a href="mailto:abdulazizsapra@outlook.com">abdulazizsapra@outlook.com</a></dd>
+                            <dt>Address:</dt>
+                            <dd>Gold Coast, Australia</dd>
+                        </dl>
+                    </div>
+                    <p class="personal-profile__social">
+                        <a href="https://www.github.com/abdulazizsapra/" target="_blank"><i
+                                class="fa fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/abdulazizsapra/" target="_blank"><i
+                                class="fa fa-linkedin-square"></i></a>
+                        <a href="https://www.facebook.com/abdulazizsapra/" target="_blank">
+                            <i class="fa fa-facebook-square"></i>
+                        </a>
+                        <a href="https://www.twitter.com/abdulazizsapra/" target="_blank">
+                            <i class="fa fa-twitter-square"></i>
+                        </a>
 
-        <section class="o-section o-section--header  t-section  t-section--header">
-            <div class="c-header">
+                    </p>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--Header-->
 
-                <div class="o-section__header-bg  t-section__header"></div>
-                <div class="o-section__content-bg  t-section__content"></div>
+    <!--Hello-->
+    <section id="hello" class="container section">
+        <div class="row">
+            <div class="col-md-10">
+                <h2 id="hello_header" class="section__title">Hi_</h2>
+                <p class="section__description">I'm a passionate software engineer with several years of experience in
+                    both front-end and back-end technologies. I thrive in fast-paced environments and enjoy
+                    collaborating with cross-functional teams to build innovative software solutions. I'm committed to
+                    continuous learning and improvement, always exploring new technologies and techniques. Let's connect
+                    and chat about all things software!
+                </p>
+                <a href="assets/abdulazizsapra.pdf" class="section_btn site-btn"><img src="assets/img/img_btn_icon.png"
+                        alt="">Download CV</a>
+            </div>
+        </div>
+    </section>
+    <!--Hello-->
 
-                <div class="o-container">
-                    <div class="o-section__container">
+    <hr>
 
-                        <header class="o-section__header  c-header__header  t-section__header">
-                            <div class="c-header__inner-header">
+    <!--Resume-->
+    <section id="resume" class="container section">
+        <div class="row">
+            <div class="col-md-10">
+                <h2 id="resume_header" class="section__title">Resume_</h2>
+                <p class="section__description">
+                    I strive to create efficient and user-friendly solutions that meet the needs of modern technology.
+                    With a passion
+                    for innovation and a strong attention to detail, I am dedicated to producing high-quality software
+                    that exceeds
+                    expectations</p>
+            </div>
+        </div>
 
-                                <div class="c-header__avatar">
-                                    <div class="a-header  c-avatar">
-                                        <img class="c-avatar__img" src="assets/images/header/avatar.jpg" alt="">
-                                    </div><!-- /c-avatar -->
-                                </div><!-- /c-header-avatar -->
+        <div class="row">
+            <div class="col-md-8 section__resume resume-list">
+                <h3 class="resume-list_title">employment</h3>
+                <div class="resume-list__block">
+                    <p class="resume-list__block-title">Full Stack Developer | GIMS, Pakistan </p>
+                    <p class="resume-list__block-date">2022 - Present</p>
+                    <p>
+                        Worked with the assistant director to design and administer custom-built web-based tools to
+                        automate
+                        educational administration Using PHP, Codeigniter, WordPress and MySQL.
+                        Designed and implemented data management tools.
+                        Created, maintained, and enforced front-end and back-end code and documentation standards.
+                        Developed scalable strategies for collecting data and delivering timely and efficient
+                        solutions.
+                    </p>
+                </div>
+                <div class="resume-list__block">
+                    <p class="resume-list__block-title">Full Stack Developer | Migastone, Malta</p>
+                    <p class="resume-list__block-date">2020 - 2022</p>
+                    <p>
+                        Developed Several Business Oriented SiberianCMS Modules Using AngularJS, Ionic & Zend
+                        Framework.
+                        Designed Complex Databases with real-life Implementations.
+                        Wrote Automated Code Generation Scripts to Integrate APIs.
+                        Worked Closely with Customer Relations & Tech Support.
+                        Worked as Project Lead in two projects related to Real state and WordPress Integrations in
+                        Mobile
+                        Apps.
 
-                            </div><!-- /c-header__inner-header -->
-                        </header><!-- /o-section__header -->
+                    </p>
+                </div>
 
-                        <div class="o-section__content  c-header__content  t-section__content">
-                            <div class="c-header__inner-content">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-8 section__resume resume-list">
+                <h3 class="resume-list_title">education</h3>
+                <div class="resume-list__block">
+                    <p class="resume-list__block-title"> Masters of Information Technology | Griffith University,
+                        Australia
+                    </p>
+                    <p class="resume-list__block-date">2023 - </p>
+                    <p>
+                    <ol>
+                        <li> Data Analytics</li>
+                        <li> Cyber Security</li>
+                        <li>IT Management</li>
+                    </ol>
+                    </p>
 
-                                <div class="c-header__top">
+                </div>
+                <div class="resume-list__block">
+                    <p class="resume-list__block-title"> Bachelor Information Technology | PMAS AAUR, Pakistan
+                    </p>
+                    <p class="resume-list__block-date">2017 - 2021</p>
+                    <p>
+                    <ol>
+                        <li>3.8 out of 4.0 CGPA,</li>
+                        <li> Consective 8 Times University Topper,</li>
+                        <li> Gold Medalist,</li>
+                        <li> Technical Support Head in University Event Management Student Society,</li>
+                        <li>Best Final Year Project</li>
+                    </ol>
+                    </p>
 
-                                    <div class="c-header__brand">
+                </div>
 
-                                        <div class="c-brand">
-                                            <h1 class="c-brand__title  t-title">
-                                                <span class="c-brand__sizer">
-                                                    <span class="a-header  c-brand__first-word  t-title__first-word">
-                                                        Abdul Aziz
-                                                    </span>
-                                                    <span class="a-header  c-brand__second-word  t-title__second-word">
-                                                        Sapra
-                                                    </span>
-                                                </span>
-                                            </h1>
-                                            <h2 class="a-header  c-brand__sub-title  t-sub-title">
-                                                <span class="c-brand__sizer">
-                                                    Web Developer &amp; Back-end Expert
-                                                </span>
-                                            </h2>
-                                        </div><!-- /c-brand -->
-
-                                    </div><!-- /c-header__brand -->
-
-                                    <ul class="c-header__social-buttons  c-social-buttons">
-                                        <li class="a-header">
-                                            <a href="https://www.facebook.com/abdulazizsapra/" target="_blank"
-                                                class="c-social-button  t-social-button">
-                                                <i class="fab  fa-lg  fa-facebook-f"></i>
-                                            </a>
-                                        </li>
-
-                                        <li class="a-header">
-                                            <a href="https://twitter.com/abdulazizsapra" target="_blank"
-                                                class="c-social-button  t-social-button">
-                                                <i class="fab  fa-lg  fa-twitter"></i>
-                                            </a>
-                                        </li>
-                                    </ul><!-- /c-header__social-buttons -->
-
-                                </div><!-- /c-header__top -->
-
-                                <div class="c-header__contact">
-
-                                    <hr class="a-header  c-header__contact-divider" />
-
-                                    <div class="o-grid">
-
-                                        <div class="o-grid__col-md-3  o-grid__col-sm-6">
-                                            <div class="a-header  o-content">
-                                                <div class="o-content__body">
-                                                    <h4>Location</h4>
-                                                    <address>
-                                                        Gujrat, Pakistan
-                                                    </address>
-                                                </div>
-                                            </div><!-- /o-content -->
-                                        </div><!-- /o-grid__col -->
-
-                                        <div class="o-grid__col-md-3  o-grid__col-sm-6">
-                                            <div class="a-header  o-content">
-                                                <div class="o-content__body">
-                                                    <h4>Phone</h4>
-                                                    <p>
-                                                        +923464569610
-                                                    </p>
-                                                </div>
-                                            </div><!-- /o-content -->
-                                        </div><!-- /o-grid__col -->
-
-                                        <div class="o-grid__col-md-3  o-grid__col-sm-6">
-                                            <div class="a-header  o-content">
-                                                <div class="o-content__body">
-                                                    <a href="#" target="_blank" class="t-link-container">
-                                                        <h4>Web</h4>
-                                                        <p>
-                                                            <span class="t-link-container__item--blended">
-                                                                abdulazizsapra.github.io
-                                                            </span>
-                                                        </p>
-                                                    </a><!-- /o-link-container -->
-                                                </div>
-                                            </div><!-- /o-content -->
-                                        </div><!-- /o-grid__col -->
-
-                                        <div class="o-grid__col-md-3  o-grid__col-sm-6">
-                                            <div class="a-header  o-content">
-                                                <div class="o-content__body">
-                                                    <a href="#" target="_blank" class="t-link-container">
-                                                        <h4>Email</h4>
-                                                        <p>
-                                                            <span class="t-link-container__item--blended">
-                                                                abdulazizsapra@outlook.com
-                                                            </span>
-                                                        </p>
-                                                    </a><!-- /o-link-container -->
-                                                </div>
-                                            </div><!-- /o-content -->
-                                        </div><!-- /o-grid__col -->
-
-                                    </div><!-- /o-grid -->
-                                </div><!-- /c-header__contact -->
-
-                            </div><!-- /c-header__inner-content -->
-                        </div><!-- /o-section__content -->
-
-                    </div><!-- /o-section__container -->
-
-                </div><!-- /o-container -->
-
-            </div><!-- /c-header -->
-        </section><!-- /o-section -->
-
-
-
-        <!-- ################################ -->
-        <!-- ############ INTRO ############# -->
-        <!-- ################################ -->
-
-        <section class="o-section  t-section  ">
-
-            <div class="o-section__header-bg  t-section__header"></div>
-            <div class="o-section__content-bg  t-section__content"></div>
-
-            <div class="o-container">
-                <div class="o-section__container">
-
-                    <header class="o-section__header  t-section__header">
-                        <div class="o-content">
-                            <h2 class="o-section__heading">
-                                Intro
-                            </h2>
-                            <div class="o-content__body  o-section__description">
-                                What I am all about.
-                            </div>
+            </div>
+        </div>
+        <div class="row section__resume progress-list js-progress-list">
+            <div class="col-md-12">
+                <h3 class="progress-list__title">skills</h3>
+            </div>
+            <div class="col-md-5 mr-auto">
+                <div class="progress-list__skill">
+                    <p>
+                        <span class="progress-list__skill-title">php (Laravel + Codeigniter + Zend)</span>
+                        <span class="progress-list__skill-value">90%</span>
+                    </p>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0"
+                            aria-valuemax="100">
                         </div>
-                    </header><!-- /o-section__header -->
+                    </div>
+                </div>
+                <div class="progress-list__skill">
+                    <p>
+                        <span class="progress-list__skill-title">WebRTC</span>
+                        <span class="progress-list__skill-value">80%</span>
+                    </p>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0"
+                            aria-valuemax="100">
+                        </div>
+                    </div>
+                </div>
 
-                    <div class="o-section__content  t-section__content  ">
+                <div class="progress-list__skill">
+                    <p>
+                        <span class="progress-list__skill-title">React</span>
+                        <span class="progress-list__skill-value">70%</span>
+                    </p>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0"
+                            aria-valuemax="100">
+                        </div>
+                    </div>
+                </div>
 
-                        <div class="o-content">
-                            <div class="c-intro">
-                                <div class="o-content__body">
-                                    <p>
-                                        I have a clear, logical mind, a practical problem- solving style, and a strong
-                                        will to see things
-                                        through to completion. I have more than 3 years
-                                        of experience in web and mobile application
-                                        development. My ambition is to become a
-                                        successful entrepreneur and start my own
-                                        technology firm. I'm eager to learn about and
-                                        work in a variety of industries, including web
-                                        development, web security, computer networks, and network security. I love to
-                                        play table tennis
-                                        and Fortnite in my free time.
+                <div class="progress-list__skill">
+                    <p>
+                        <span class="progress-list__skill-title">React Native</span>
+                        <span class="progress-list__skill-value">90%</span>
+                    </p>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0"
+                            aria-valuemax="100">
+                        </div>
+                    </div>
+                </div>
+                <div class="progress-list__skill">
+                    <p>
+                        <span class="progress-list__skill-title">Ionic</span>
+                        <span class="progress-list__skill-value">70%</span>
+                    </p>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0"
+                            aria-valuemax="100">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-5 mr-auto">
+                <div class="progress-list__skill">
+                    <p>
+                        <span class="progress-list__skill-title">Wordpress</span>
+                        <span class="progress-list__skill-value">80%</span>
+                    </p>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0"
+                            aria-valuemax="100">
+                        </div>
+                    </div>
+                </div>
+                <div class="progress-list__skill">
+                    <p>
+                        <span class="progress-list__skill-title">API Development</span>
+                        <span class="progress-list__skill-value">80%</span>
+                    </p>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0"
+                            aria-valuemax="100">
+                        </div>
+                    </div>
+                </div>
+                <div class="progress-list__skill">
+                    <p>
+                        <span class="progress-list__skill-title">git</span>
+                        <span class="progress-list__skill-value">90%</span>
+                    </p>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0"
+                            aria-valuemax="100">
+                        </div>
+                    </div>
+                </div>
+                <div class="progress-list__skill">
+                    <p>
+                        <span class="progress-list__skill-title">Angular</span>
+                        <span class="progress-list__skill-value">70%</span>
+                    </p>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0"
+                            aria-valuemax="100">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Resume-->
+
+    <!--Portfolio-->
+    <section id="portfolio" class="container section">
+        <div class="row">
+            <div class="col-md-12">
+                <h2 id="portfolio_header" class="section__title">My projects_</h2>
+            </div>
+        </div>
+        <div class="row portfolio-menu">
+            <div class="col-md-12">
+                <nav>
+                    <ul>
+                        <li><a href="" data-portfolio-target-tag="all">all</a></li>
+                        <li><a href="" data-portfolio-target-tag="mobile apps">mobile apps</a></li>
+                        <li><a href="" data-portfolio-target-tag="web-sites">web-sites</a></li>
+
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div class="portfolio-cards">
+            <div class="row project-card" data-toggle="modal" data-target="#portfolioModal"
+                data-portfolio-tag="mobile apps">
+                <div class="col-md-6 col-lg-5 project-card__img">
+                    <img class="" src="assets/img/img_project_1_mono.png" alt="project-img">
+                </div>
+                <div class="col-md-6 col-lg-7 project-card__info">
+                    <h3 class="project-card__title">Text Me When You Get There (Mobile Application)
+                    </h3>
+                    <p class="project-card__description">
+                        The implementation of this project involved the utilization of several technologies including
+                        React Native,
+                        Firebase, and Google GPS and Location Services. The objective of this project was to create a
+                        utility application
+                        that would be useful to everyday mobile users.
+                    </p>
+                    <p class="project-card__stack">Used stack:</p>
+                    <ul class="tags">
+                        <li>Firebase</li>
+                        <li>React Native</li>
+                        <li>Google GPS & Location Services</li>
+                        <li>GCP</li>
+
+                    </ul>
+                    <a href="" class="project-card__link">www.tmwygt.com</a>
+                </div>
+            </div>
+            <div class="row project-card" data-toggle="modal" data-target="#portfolioModal"
+                data-portfolio-tag="web-sites">
+                <div class="col-md-6 col-lg-5 project-card__img">
+                    <img class="" src="assets/img/img_project_2_mono.png" alt="project-img">
+                </div>
+                <div class="col-md-6 col-lg-7 project-card__info">
+                    <h3 class="project-card__title">Circle</h3>
+                    <p class="project-card__description">
+                        The purpose of this project was to facilitate instantaneous communication between wearable
+                        devices and web
+                        and mobile devices. To achieve this, we leveraged the WebRTC technology and integrated it with
+                        Red5pro Media
+                        Server and AWS. Specifically, the Vuzix Blade Wearable Smart Glasses were utilized to develop a
+                        Live Streaming
+                        application through the implementation of Java. In addition, a Mobile Application was developed
+                        using React
+                        Native to enable WebRTC integration. The project was rounded off with the creation of a Web
+                        Application, which
+                        was built with Laravel and VueJS.
+                    </p>
+                    <p class="project-card__stack">Used stack:</p>
+                    <ul class="tags">
+                        <li>WebRTC</li>
+                        <li>Laravel</li>
+                        <li>JavaScript</li>
+                        <li>Java</li>
+                        <li>React Native</li>
+                        <li>AWS</li>
+                    </ul>
+
+                </div>
+            </div>
+            <div class="row project-card" data-toggle="modal" data-target="#portfolioModal"
+                data-portfolio-tag="web-sites">
+                <div class="col-md-6 col-lg-5 project-card__img">
+                    <img class="" src="assets/img/img_project_2_mono.png" alt="project-img">
+                </div>
+                <div class="col-md-6 col-lg-7 project-card__info">
+                    <h3 class="project-card__title">Northern Disability and Aged Care, Australia</h3>
+                    <p class="project-card__description">
+                        Developed a responsive website for Northern Disability and Aged Care, an organization in Sydney
+                        Australia
+                        providing disability and aged care services. Customized the website using WordPress custom
+                        themes. Designed a
+                        user-friendly interface and integrated social media profiles. Completed the project on time and
+                        on budget.
+                    </p>
+                    <p class="project-card__stack">Used stack:</p>
+                    <ul class="tags">
+                        <li>WordPress</li>
+                        <li>Elementor</li>
+
+                    </ul>
+                    <a href="" class="project-card__link">www.ndaac.com.au</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Portfolio-->
+
+    <!--Testimonials-->
+    <div id="testimonials" class="section">
+        <div class="background slider-carousel" style="background-image: url(assets/img/img_bg_main.jpg);">
+            <div class="container">
+                <div id="carouselTestimonials" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselTestimonials" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselTestimonials" data-slide-to="1"></li>
+                        <li data-target="#carouselTestimonials" data-slide-to="2"></li>
+                        <li data-target="#carouselTestimonials" data-slide-to="3"></li>
+                    </ol>
+                    <div class="carousel-inner" role="listbox">
+                        <div class="carousel-item active">
+                            <div class="row">
+                                <div class="col-md-10 col-sm-10 col-10 mr-auto ml-auto">
+                                    <p class="slider-carousel__title">Oscar Dalvit</p>
+                                    <p class="slider-carousel__caption">CEO Migastone</p>
+                                    <hr>
+                                    <p class="slider-carousel__description">
+                                        Aziz is one of my Junior Developers, very smart, good in execution and committed
+                                        with your work. Sure is a very good programmer and professionist.
                                     </p>
                                 </div>
                             </div>
                         </div>
-
-                    </div><!-- /o-section__content -->
-
-                </div><!-- /o-section__container -->
-            </div><!-- /o-container -->
-
-        </section><!-- /o-section -->
-
-
-
-
-
-
-        <!-- ################################ -->
-        <!-- ############ SKILLS ############ -->
-        <!-- ################################ -->
-
-        <section class="o-section  t-section  ">
-
-            <div class="o-section__header-bg  t-section__header"></div>
-            <div class="o-section__content-bg  t-section__content"></div>
-
-            <div class="o-container">
-                <div class="o-section__container">
-
-                    <header class="o-section__header  t-section__header">
-                        <div class="o-content">
-                            <h2 class="o-section__heading">
-                                Skills
-                            </h2>
-                            <div class="o-content__body  o-section__description">
-                                Progress bars, anyone?
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col-md-10 col-sm-10 col-10 mr-auto ml-auto">
+                                    <p class="slider-carousel__title">Sheikh Danish</p>
+                                    <p class="slider-carousel__caption">CEO SolarByTS</p>
+                                    <hr>
+                                    <p class="slider-carousel__description">
+                                        Abdul Aziz is the greatest — so responsive and timely in getting back to
+                                        me
+                                        if I have questions or need to make changes. I love their design sense, and
+                                        their willingness to dig down deep to understand my business and what’s
+                                        important to me and the people I need to reach. I’m so thankful I found Abdul
+                                        Aziz!
+                                    </p>
+                                </div>
                             </div>
                         </div>
-                    </header><!-- /o-section__header -->
-
-                    <div class="o-section__content  t-section__content  ">
-
-                        <div class="o-grid">
-
-                            <div class="o-grid__col-sm-6">
-                                <div class="o-content">
-                                    <div class="o-media  o-media--block">
-                                        <div class="o-media__figure">
-                                            <div class="c-number  t-primary-color">
-                                                90<small>%</small>
-                                            </div>
-                                        </div>
-                                        <div class="o-media__body">
-                                            <h3>Php</h3>
-                                        </div>
-                                    </div>
-                                    <div class="c-progress-bar  o-content__body  t-border-color-bg  u-mt-text">
-                                        <div class="a-progress-bar  c-progress-bar__filler  t-primary-bg"
-                                            data-percent="90"></div>
-                                    </div>
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col-md-10 col-sm-10 col-10 mr-auto ml-auto">
+                                    <p class="slider-carousel__title">Imran Munir</p>
+                                    <p class="slider-carousel__caption">Managing Director NDAAC Australia</p>
+                                    <hr>
+                                    <p class="slider-carousel__description">
+                                        Thank you Abdul Aziz for the outstanding professional job you did for
+                                        us! I highly recommend you for the quality and professionalism that I
+                                        experienced every step of the way! I look forward to a long lasting
+                                        relationship! </p>
                                 </div>
-                            </div><!-- /o-grid__col -->
-
-                            <div class="o-grid__col-sm-6">
-                                <div class="o-content">
-                                    <div class="o-media  o-media--block">
-                                        <div class="o-media__figure">
-                                            <div class="c-number  t-primary-color">
-                                                90<small>%</small>
-                                            </div>
-                                        </div>
-                                        <div class="o-media__body">
-                                            <h3>JavaScript</h3>
-                                        </div>
-                                    </div>
-                                    <div class="c-progress-bar  o-content__body  t-border-color-bg  u-mt-text">
-                                        <div class="a-progress-bar  c-progress-bar__filler  t-primary-bg"
-                                            data-percent="90"></div>
-                                    </div>
-                                </div>
-                            </div><!-- /o-grid__col -->
-
-                            <div class="o-grid__col-sm-6">
-                                <div class="o-content">
-                                    <div class="o-media  o-media--block">
-                                        <div class="o-media__figure">
-                                            <div class="c-number  t-primary-color">
-                                                80<small>%</small>
-                                            </div>
-                                        </div>
-                                        <div class="o-media__body">
-                                            <h3>Git</h3>
-                                        </div>
-                                    </div>
-                                    <div class="c-progress-bar  o-content__body  t-border-color-bg  u-mt-text">
-                                        <div class="a-progress-bar  c-progress-bar__filler  t-primary-bg"
-                                            data-percent="80"></div>
-                                    </div>
-                                </div>
-                            </div><!-- /o-grid__col -->
-
-                            <div class="o-grid__col-sm-6">
-                                <div class="o-content">
-                                    <div class="o-media  o-media--block">
-                                        <div class="o-media__figure">
-                                            <div class="c-number  t-primary-color">
-                                                80<small>%</small>
-                                            </div>
-                                        </div>
-                                        <div class="o-media__body">
-                                            <h3>React & React Native</h3>
-                                        </div>
-                                    </div>
-                                    <div class="c-progress-bar  o-content__body  t-border-color-bg  u-mt-text">
-                                        <div class="a-progress-bar  c-progress-bar__filler  t-primary-bg"
-                                            data-percent="70"></div>
-                                    </div>
-                                </div>
-                            </div><!-- /o-grid__col -->
-
-                            <div class="o-grid__col-sm-6">
-                                <div class="o-content">
-                                    <div class="o-media  o-media--block">
-                                        <div class="o-media__figure">
-                                            <div class="c-number  t-primary-color">
-                                                65<small>%</small>
-                                            </div>
-                                        </div>
-                                        <div class="o-media__body">
-                                            <h3>Angular</h3>
-                                        </div>
-                                    </div>
-                                    <div class="c-progress-bar  o-content__body  t-border-color-bg  u-mt-text">
-                                        <div class="a-progress-bar  c-progress-bar__filler  t-primary-bg"
-                                            data-percent="65"></div>
-                                    </div>
-                                </div>
-                            </div><!-- /o-grid__col -->
-
-                            <div class="o-grid__col-sm-6">
-                                <div class="o-content">
-                                    <div class="o-media  o-media--block">
-                                        <div class="o-media__figure">
-                                            <div class="c-number  t-primary-color">
-                                                85<small>%</small>
-                                            </div>
-                                        </div>
-                                        <div class="o-media__body">
-                                            <h3>Wordpress</h3>
-                                        </div>
-                                    </div>
-                                    <div class="c-progress-bar  o-content__body  t-border-color-bg  u-mt-text">
-                                        <div class="a-progress-bar  c-progress-bar__filler  t-primary-bg"
-                                            data-percent="80"></div>
-                                    </div>
-                                </div>
-                            </div><!-- /o-grid__col -->
-
-                            <div class="o-grid__col-sm-6">
-                                <div class="o-content">
-                                    <div class="o-media  o-media--block">
-                                        <div class="o-media__figure">
-                                            <div class="c-number  t-primary-color">
-                                                80<small>%</small>
-                                            </div>
-                                        </div>
-                                        <div class="o-media__body">
-                                            <h3>WebRTC</h3>
-                                        </div>
-                                    </div>
-                                    <div class="c-progress-bar  o-content__body  t-border-color-bg  u-mt-text">
-                                        <div class="a-progress-bar  c-progress-bar__filler  t-primary-bg"
-                                            data-percent="85"></div>
-                                    </div>
-                                </div>
-                            </div><!-- /o-grid__col -->
-
-                            <div class="o-grid__col-sm-6">
-                                <div class="o-content">
-                                    <div class="o-media  o-media--block">
-                                        <div class="o-media__figure">
-                                            <div class="c-number  t-primary-color">
-                                                70<small>%</small>
-                                            </div>
-                                        </div>
-                                        <div class="o-media__body">
-                                            <h3>SEO</h3>
-                                        </div>
-                                    </div>
-                                    <div class="c-progress-bar  o-content__body  t-border-color-bg  u-mt-text">
-                                        <div class="a-progress-bar  c-progress-bar__filler  t-primary-bg"
-                                            data-percent="95"></div>
-                                    </div>
-                                </div>
-                            </div><!-- /o-grid__col -->
-
-                        </div><!-- /o-grid -->
-
-                    </div><!-- /o-section__content -->
-
-                </div><!-- /o-section__container -->
-            </div><!-- /o-container -->
-
-        </section><!-- /o-section -->
-
-
-
-        <!-- ################################ -->
-        <!-- ########## EXPERIENCE ########## -->
-        <!-- ################################ -->
-
-        <section class="o-section  t-section  ">
-
-            <div class="o-section__header-bg  t-section__header"></div>
-            <div class="o-section__content-bg  t-section__content"></div>
-
-            <div class="o-container">
-                <div class="o-section__container">
-
-                    <header class="o-section__header  t-section__header">
-                        <div class="o-content">
-                            <h2 class="o-section__heading">
-                                Experience
-                            </h2>
-                            <div class="o-content__body  o-section__description">
-                                Yes. I&#39;ve been around.
                             </div>
                         </div>
-                    </header><!-- /o-section__header -->
-
-                    <div class="o-section__content  t-section__content  u-pb-0">
-
-                        <div class="a-experience-timeline  c-timeline  t-border-color">
-
-                            <div class="c-timeline__item">
-                                <div class="c-timeline__point  t-timeline__point  t-primary-bg"></div>
-                                <div class="o-content">
-                                    <div class="o-grid">
-                                        <div class="o-grid__col-md-5">
-                                            <div class="c-work__timeframe">
-                                                2020 &ndash; 2021
-                                            </div>
-                                            <h3 class="c-work__heading">
-                                                Migastone
-                                            </h3>
-                                            <h4 class="c-work__title">
-                                                Hybrid Apps Developer
-                                            </h4>
-                                            <div class="c-work__location">
-                                                Remote
-                                            </div>
-                                        </div>
-                                        <div class="o-grid__col-md-7">
-                                            <p>
-                                                Developed modules for SiberianCMS using angular, Ionic, php (Zend
-                                                Framework).
-                                            </p>
-                                        </div>
-                                    </div><!-- /o-grid -->
-                                </div><!-- /o-content -->
-                            </div><!-- /c-timeline__item -->
-
-                            <div class="c-timeline__item">
-                                <div class="c-timeline__point  t-timeline__point  t-primary-bg"></div>
-                                <div class="o-content">
-                                    <div class="o-grid">
-                                        <div class="o-grid__col-md-5">
-                                            <div class="c-work__timeframe">
-                                                2019 &ndash; 2020
-                                            </div>
-                                            <h3 class="c-work__heading">
-                                                Gujrat Institue Of Management Sciences
-                                            </h3>
-                                            <h4 class="c-work__title">
-                                                Web Developer
-                                            </h4>
-                                            <div class="c-work__location">
-                                                Gujrat, Pakistan
-                                            </div>
-                                        </div>
-                                        <div class="o-grid__col-md-7">
-                                            <p>
-                                                Determined coding requirements for site creation, e-commerce capability,
-                                                security and specialized scripts.
-                                                Translated customer requirements into technical site concepts for
-                                                bidding and initial planning purposes.
-                                                Created style guides to standardize multiple sites around singular
-                                                templates and design languages.
-                                                Designed user interface and integrated into content management system to
-                                                meet client specifications.
-                                            </p>
-                                        </div>
-                                    </div><!-- /o-grid -->
-                                </div><!-- /o-content -->
-                            </div><!-- /c-timeline__item -->
-
-                            <!-- /c-timeline__item -->
-
-                        </div><!-- /c-timeline -->
-
-                    </div><!-- /o-section__content -->
-
-                </div><!-- /o-section__container -->
-            </div><!-- /o-container -->
-
-        </section><!-- /o-section -->
-
-
-
-        <!-- ################################ -->
-        <!-- ########### EDUCATION ########## -->
-        <!-- ################################ -->
-
-        <section class="o-section  t-section  ">
-
-            <div class="o-section__header-bg  t-section__header"></div>
-            <div class="o-section__content-bg  t-section__content"></div>
-
-            <div class="o-container">
-                <div class="o-section__container">
-
-                    <header class="o-section__header  t-section__header">
-                        <div class="o-content">
-                            <h2 class="o-section__heading">
-                                Education
-                            </h2>
-                            <div class="o-content__body  o-section__description">
-                                Lazy isn&#39;t in my vocabulary.
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col-md-10 col-sm-10 col-10 mr-auto ml-auto">
+                                    <p class="slider-carousel__title">Sarah Josten</p>
+                                    <p class="slider-carousel__caption">Managing Director Behind the Scenes, USA</p>
+                                    <hr>
+                                    <p class="slider-carousel__description">
+                                        It is seldom you meet a young man like Abdul. At first, you find him engaging
+                                        and very highly educated, but once you get to really know him, you realize just
+                                        how deeply he desires to grow and learn. He truly connects with people and he is
+                                        a delight to know. I've been a manager for a Fortune 50 company. Were I still in
+                                        that position I would not hesitate to make him a part of my team. </p>
+                                </div>
                             </div>
                         </div>
-                    </header><!-- /o-section__header -->
-
-                    <div class="o-section__content  t-section__content  u-pt-0">
-
-                        <div class="o-content">
-                            <div class="a-education-timeline  c-timeline  t-border-color  o-section__full-top-space">
-                                <div class="c-timeline__end  t-border-color"></div>
-
-                                <div class="c-timeline__item">
-                                    <div class="c-timeline__point  t-timeline__point  t-primary-bg"></div>
-                                    <div class="o-content">
-                                        <div class="o-grid">
-                                            <div class="o-grid__col-md-5">
-                                                <div class="c-work__timeframe">
-                                                    2017 &ndash; 2021
-                                                </div>
-                                                <h3 class="c-work__heading">
-                                                    Pir Mehar Ali Shah Arid Agriculture University Rawalpindi
-                                                </h3>
-                                                <h4 class="c-work__title">
-                                                    Bachelor of Information Technology
-                                                </h4>
-                                                <div class="c-work__location">
-                                                    Rawalpindi, Pakistan
-                                                </div>
-                                            </div>
-                                            <div class="o-grid__col-md-7">
-                                                <p>
-
-                                                <ul>
-                                                    <li>3.8 out of 4.0 CGPA</li>
-                                                    <li>Consective 8 Times University Topper</li>
-                                                    <li>Gold Medalist</li>
-                                                    <li>Technical Support Head in University Event Management Student
-                                                        Society.</li>
-                                                    <li>Best Final Year Project</li>
-                                                </ul>
-                                                </p>
-                                            </div>
-                                        </div><!-- /o-grid -->
-                                    </div><!-- /o-content -->
-                                </div><!-- /c-timeline__item -->
-
-
-                            </div><!-- /c-timeline -->
-                        </div><!-- /o-content -->
-
-                    </div><!-- /o-section__content -->
-
-                </div><!-- /o-section__container -->
-            </div><!-- /o-container -->
-
-        </section><!-- /o-section -->
+                    </div>
+                    <a class="carousel-control-prev" href="#testimonials" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#testimonials" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                    <div class="slider-carousel__circle">
+                        <p><i class="fa fa-quote-right" aria-hidden="true"></i></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Testimonials-->
 
 
 
+    <!--Contact-->
+    <div class="background" style="background-image: url(assets/img/img_bg_main.jpg)">
+        <div id="contact" class="container section">
+            <div class="row">
+                <div class="col-md-12">
+                    <p id="contacts_header" class="section__title">Get in touch_</p>
+                </div>
+            </div>
+            <div class="row contacts">
+                <div class="col-md-5 col-lg-4">
+                    <div class="contacts__list">
+                        <dl class="contact-list">
+                            <dt>Phone:</dt>
+                            <dd><a href="tel:923464569610">+61451556175</a></dd>
+                            <dt>Skype:</dt>
+                            <dd><a href="skype:abdulazizsapra">abdulazizsapra</a></dd>
+                            <dt>Email:</dt>
+                            <dd><a href="mailto:abdulazizsapra@outlook.com">abdulazizsapra@outlook.com</a></dd>
+                        </dl>
+                    </div>
+                    <div class="contacts__social">
+                        <ul>
+                            <li>
 
+                                <a href="https://www.facebook.com/abdulazizsapra/" target="_blank">
+                                    Facebook
+                                </a>
+                            </li>
+                            <li><a href="https://www.linkedin.com/in/abdulazizsapra/" target="_blank">Linkedin</a></li>
+                            <li><a href="https://www.github.com/abdulazizsapra/" target="_blank">GitHub</a></li>
 
-        <!-- ################################ -->
-        <!-- ############ HEADER ############ -->
-        <!-- ################################ -->
-
-        <section class="o-section  t-section  ">
-
-            <div class="o-section__header-bg  t-section__header"></div>
-            <div class="o-section__content-bg  t-section__content"></div>
-
-            <div class="o-container">
-                <div class="o-section__container">
-
-                    <header class="o-section__header  t-section__header">
-                        <div class="o-content">
-                            <h2 class="o-section__heading">
-                                Awards
-                            </h2>
-                            <div class="o-content__body  o-section__description">
-                                Happy times!
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-7 col-lg-5">
+                    <div class="contacts__form">
+                        <p class="contacts__form-title">Or just write me a letter here_</p>
+                        <form class="js-form">
+                            <div class="form-group">
+                                <input class="form-field js-field-name" type="text" placeholder="Your name" required>
+                                <span class="form-validation"></span>
+                                <span class="form-invalid-icon"><i class="mdi mdi-close" aria-hidden="true"></i></span>
                             </div>
-                        </div>
-                    </header><!-- /o-section__header -->
-
-                    <div class="o-section__content  t-section__content  ">
-
-                        <div class="o-grid">
-
-                            <div class="o-grid__col-md-4  o-grid__col-sm-6">
-                                <div class="o-content">
-                                    <hr class="c-deco-line  t-primary-color-line" />
-                                    <div class="o-content__body">
-                                        <h3>Gold Medalist 2021</h3>
-                                        <p>
-                                            Achieved Gold Medal in my Bachelor's degree.
-                                        </p>
-                                    </div>
-                                </div><!-- /o-content -->
-                            </div><!-- /o-grid__col -->
-
-                            <div class="o-grid__col-md-4  o-grid__col-sm-6">
-                                <div class="o-content">
-                                    <hr class="c-deco-line  t-primary-color-line" />
-                                    <div class="o-content__body">
-                                        <h3>Runner Up Best Webdesigner Competition 2019</h3>
-                                        <p>
-                                            The Best Webdesigner Competition was organized by GIMS(Gujrat Institue Of
-                                            Management Sciences) where I stood runnerup.
-                                        </p>
-                                    </div>
-                                </div><!-- /o-content -->
-                            </div><!-- /o-grid__col -->
-
-                            <div class="o-grid__col-md-4  o-grid__col-sm-6">
-                                <div class="o-content">
-                                    <hr class="c-deco-line  t-primary-color-line" />
-                                    <div class="o-content__body">
-                                        <h3>1st Place at CS 1.6 E-Gaming Competition.</h3>
-                                        <p>
-                                            GIMS organized another event for E-Gaming, In which I participated and Stood
-                                            First in Muliplayer CS 1.6 Competition.
-                                        </p>
-                                    </div>
-                                </div><!-- /o-content -->
-                            </div><!-- /o-grid__col -->
-
-                        </div><!-- /o-grid -->
-
-                    </div><!-- /o-section__content -->
-
-                </div><!-- /o-section__container -->
-            </div><!-- /o-container -->
-
-        </section><!-- /o-section -->
-
-
-
-
-
-
-
-        <!-- ################################ -->
-        <!-- ############ FOOTER ############ -->
-        <!-- ################################ -->
-
-        <section class="o-section  t-section  o-section--footer">
-
-            <div class="o-section__header-bg  t-section__header"></div>
-            <div class="o-section__content-bg  t-section__content"></div>
-
-            <div class="o-container">
-                <div class="o-section__container">
-
-                    <header class="o-section__header  t-section__header">
-                        <div class="o-content">
-                            <h2 class="o-section__heading">
-                                Contact
-                            </h2>
-                            <div class="o-content__body  o-section__description">
-                                Call me, maybe.
+                            <div class="form-group">
+                                <input class="form-field js-field-email" type="email" placeholder="Your e-mail"
+                                    required>
+                                <span class="form-validation"></span>
+                                <span class="form-invalid-icon"><i class="mdi mdi-close" aria-hidden="true"></i></span>
                             </div>
-                        </div>
-                    </header><!-- /o-section__header -->
-
-                    <div class="o-section__content  t-section__content  ">
-
-                        <div class="c-footer__contact">
-                            <div class="o-grid">
-
-                                <div class="o-grid__col-md-3  o-grid__col-sm-6">
-                                    <div class="o-content">
-                                        <div class="o-content__body">
-                                            <h4>Location</h4>
-                                            <address>
-                                                Gujrat, Pakistan
-                                            </address>
-                                        </div>
-                                    </div><!-- /o-content -->
-                                </div><!-- /o-grid__col -->
-
-                                <div class="o-grid__col-md-3  o-grid__col-sm-6">
-                                    <div class="o-content">
-                                        <div class="o-content__body">
-                                            <h4>Phone</h4>
-                                            <p>
-                                                +923464569610
-                                            </p>
-                                        </div>
-                                    </div><!-- /o-content -->
-                                </div><!-- /o-grid__col -->
-
-                                <div class="o-grid__col-md-3  o-grid__col-sm-6">
-                                    <div class="o-content">
-                                        <div class="o-content__body">
-                                            <a href="#" target="_blank" class="t-link-container">
-                                                <h4>Web</h4>
-                                                <p>
-                                                    <span class="t-link-container__item--blended">
-                                                        abdulazizsapra.github.io
-                                                    </span>
-                                                </p>
-                                            </a><!-- /o-link-container -->
-                                        </div>
-                                    </div><!-- /o-content -->
-                                </div><!-- /o-grid__col -->
-
-                                <div class="o-grid__col-md-3  o-grid__col-sm-6">
-                                    <div class="o-content">
-                                        <div class="o-content__body">
-                                            <a href="#" target="_blank" class="t-link-container">
-                                                <h4>Email</h4>
-                                                <p>
-                                                    <span class="t-link-container__item--blended">
-                                                        abdulazizsapra@outlook.com
-                                                    </span>
-                                                </p>
-                                            </a><!-- /o-link-container -->
-                                        </div>
-                                    </div><!-- /o-content -->
-                                </div><!-- /o-grid__col -->
-
-                            </div><!-- /o-grid -->
-                        </div><!-- /c-footer__contact -->
-
-                        <hr class="c-footer__contact-divider" />
-
-                        <div class="o-content">
-                            <div class="c-footer__bottom">
-                                <div class="c-footer__brand">
-
-                                    <div class="c-brand">
-                                        <div class="o-content__body">
-                                            <h1 class="c-brand__title  t-title">
-                                                <span class="c-brand__sizer  c-brand__sizer--sm">
-                                                    <span class="a-footer  c-brand__first-word  t-title__first-word">
-                                                        Abdul Aziz
-                                                    </span>
-                                                    <span class="a-footer  c-brand__second-word  t-title__second-word">
-                                                        Sapra
-                                                    </span>
-                                                </span>
-                                            </h1>
-                                        </div><!-- /o-content__body -->
-                                    </div><!-- /c-brand -->
-
-                                </div><!-- /c-footer__brand -->
-
-                                <ul class="c-footer__social-buttons  c-social-buttons  o-content__body">
-                                    <li class="a-footer">
-                                        <a href="https://www.facebook.com/abdulazizsapra/" target="_blank"
-                                            class="c-social-button  t-social-button">
-                                            <i class="fab  fa-lg  fa-facebook-f"></i>
-                                        </a>
-                                    </li>
-
-                                    <li class="a-footer">
-                                        <a href="https://twitter.com/abdulazizsapra" target="_blank"
-                                            class="c-social-button  t-social-button">
-                                            <i class="fab  fa-lg  fa-twitter"></i>
-                                        </a>
-                                    </li>
-                                </ul><!-- /c-footer__social-buttons -->
-
-                            </div><!-- /c-footer__bottom -->
-                        </div><!-- /o-content -->
-
-                    </div><!-- /o-section__content -->
-
-                </div><!-- /o-section__container -->
-            </div><!-- /o-container -->
-
-        </section><!-- /o-section -->
+                            <div class="form-group">
+                                <textarea class="form-field js-field-message" placeholder="Type the message here"
+                                    required></textarea>
+                                <span class="form-validation"></span>
+                                <span class="form-invalid-icon"><i class="mdi mdi-close" aria-hidden="true"></i></span>
+                            </div>
+                            <button class="site-btn site-btn--form" type="submit" value="Send">Send</button>
+                        </form>
+                    </div>
+                    <div class="footer">
+                        <p>© 2023 abdulazizsapra. All Rights Reserved</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Contact-->
 
 
-
-    </div><!-- /c-main-container -->
-
+    <script src="assets/js/jquery-2.2.4.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/menu.js"></script>
+    <script src="assets/js/jquery.waypoints.js"></script>
+    <script src="assets/js/progress-list.js"></script>
+    <script src="assets/js/section.js"></script>
+    <script src="assets/js/portfolio-filter.js"></script>
+    <script src="assets/js/slider-carousel.js"></script>
+    <script src="assets/js/mobile-menu.js"></script>
+    <script src="assets/js/contacts.js"></script>
+    <script src="assets/js/mbclicker.min.js"></script>
+    <script src="assets/js/site-btn.js"></script>
+    <script src="assets/js/style-switcher.js"></script>
 </body>
-
 
 </html>
