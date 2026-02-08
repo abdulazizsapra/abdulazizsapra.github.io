@@ -986,6 +986,61 @@ nav.scrolled {
     margin-top: 0.5rem;
 }
 
+/* === EDUCATION === */
+.education-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 1.5rem;
+}
+
+.edu-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-lg);
+    padding: 2rem;
+    transition: all var(--transition);
+}
+
+.edu-card:hover {
+    border-color: var(--border-hover);
+}
+
+.edu-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    flex-wrap: wrap;
+}
+
+.edu-header h3 {
+    font-size: 1.125rem;
+    font-weight: 700;
+}
+
+.edu-school {
+    color: var(--text-muted);
+    font-size: 0.9375rem;
+    margin-top: 0.25rem;
+}
+
+.edu-date {
+    color: var(--accent);
+    font-weight: 600;
+    font-size: 0.875rem;
+    white-space: nowrap;
+}
+
+.edu-body p {
+    color: var(--text-muted);
+    font-size: 0.9375rem;
+}
+
+.edu-body p strong {
+    color: var(--text);
+}
+
 /* === RESPONSIVE === */
 @media (max-width: 1024px) {
     .timeline-grid {
