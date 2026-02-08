@@ -1,0 +1,114 @@
+
+Migastone
+
+
+Developed MigaPerformance, a performance and commission-tracking module for real estate agencies.
+Implemented KPIs, agent commission tracking, and performance dashboards.
+Built dashboards available both inside the mobile app and in the backend admin panel.
+Created MigaWordPress, a module integrating WordPress websites into mobile apps.
+Implemented JWT-based authentication using the WordPress REST API.
+Automatically generated temporary WordPress users at runtime to provide logged-in website experiences inside apps.
+Worked on MigaWhatsApp, integrating WhatsApp APIs into Siberian CMS drag-and-drop applications.
+Built a standalone UTM tracking system using Laravel to track and analyze marketing campaign parameters from URLs.
+
+CodeAdroits
+
+
+https://tmwygt.com/
+
+Built and delivered a cross-platform mobile application from scratch using React Native and Node.js, developing TMWYGT (Text Me When You Get There) — a geolocation-based SMS automation app that triggers scheduled messages based on user arrival, integrating Google Geolocation APIs, MongoDB, real-time backend services, and a subscription management system, and successfully releasing the first beta version during the engagement.
+
+Side Projects
+
+https://carloop.com.au/ (Wordpress Elementor)
+
+https://store.carloop.com.au/ (Shopify)
+
+https://www.eibc.net.au/ (Wix)
+
+https://ndaac.com.au/ (Wordpress Elementor)
+
+https://i-build.com.au/ (Server Transfer WP Engine)
+
+https://www.aloka.com.au/
+
+
+
+
+
+Get Content
+
+SmartTech Australia – Website & Digital Growth (Elementor)
+• Led redevelopment of a 200-page enterprise website within 4 weeks with zero downtime
+• Delivered a fully responsive redesign while retaining SEO and existing traffic
+• Collaborated with marketing teams to support campaigns
+• Contributed to the company being fully booked for 2 months for the first time
+
+DiveBookings.com – Multi-Vendor Marketplace (Custom Shopify Dev)
+• Built a niche multi-vendor booking platform for scuba diving, freediving, and spearfishing
+• Selected Shopify as the core platform with custom development and third-party integrations
+• Enabled vendors to manage listings, availability, and bookings in one system
+
+PetSavers.com.au – E-Commerce Brand Launch (Shopify)
+• Launched a full online pet store within 3 months
+• Conducted supplier and product research, pricing, and onboarding
+• Structured unorganized supplier data and listed thousands of products
+
+SnapshotHub – Photography Marketplace 
+• Led development of a photography marketplace using Laravel, PHP, and AWS
+• Implemented facial and bib recognition using AWS Rekognition
+• Enabled multi-photographer collaboration per event with secure AWS storage
+• Built tools for one-click removal of protected individuals
+
+
+
+
+https://getcontent.com.au/ (Web Flow)
+
+
+https://learn.snapshothub.au/ (Wordpress Elementor)
+
+
+https://tathrawharf2waves.com.au/ (Wordpress Elementor)
+
+
+https://carwashwhitsundays.com.au/ (Wordpress Elementor)
+
+
+https://thecomfortspecialists.com.au/ (Wordpress Elementor)
+
+
+https://podiatryaustralia.com.au/ (Wordpress Elementor)
+
+
+https://gilbertlodge.com.au/ (Wordpress Elementor)
+
+
+https://cosmosplumbingandgas.com.au/ (Wordpress Elementor)
+
+
+https://goodnyt.com/ shopify
+
+https://weighingsystemsaustralia.com.au/ Wordpress elementor
+
+https://aquawarrior.com.au/ Wordpress elementor
+
+https://precisionslideandscreen.com.au/ wordpress elementor
+
+https://goldcoastgymnastics.com/ wordpress elementor
+
+https://shop.goldcoastgymnastics.com/ shopify
+
+https://mmafightstore.com.au/ shopify
+
+https://naturalfitfootwear.com.au/ shopify
+
+
+https://strongerstrides.com.au/ wordpress elementor
+
+
+
+
+
+
+
