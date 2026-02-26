@@ -1,0 +1,24 @@
+- degree: Master of Information and Communications Technology
+  institution: Griffith University & Canterbury Institute of Management
+  location: Australia
+  date: 2023 - 2025
+  description: >
+    Advanced studies in software engineering, data analytics, cloud computing,
+    and enterprise systems.
+
+- degree: Bachelor of Science in Information Technology
+  institution: Arid Agriculture University
+  location: Pakistan
+  date: 2017 - 2021
+  description: >
+    Foundation in software development, database management, networking, and
+    system analysis.
+  achievements:
+    - >
+      Secured <strong>Gold Medal</strong> for attaining the highest GPA across
+      all semesters of the 4-year degree.
+    - >
+      Awarded <strong>A+ for Best Final Year Project 2021</strong>: Built a
+      live streaming application using WebRTC, Laravel, Red5Pro media server,
+      and MySQL, along with a React Native mobile app for iOS and Android, and
+      an MVP for Vixuz Blade Smart Glasses.

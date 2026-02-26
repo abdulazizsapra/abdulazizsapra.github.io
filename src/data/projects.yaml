@@ -1,0 +1,126 @@
+featured:
+  - name: SnapshotHub
+    url: https://snapshothub.au/
+    type: AI Photography Marketplace
+    featured: true
+    what: >
+      A marketplace where event photographers upload photos and attendees find
+      themselves using AI facial recognition.
+    role: >
+      Sole developer. Architected the system, built the Laravel backend,
+      integrated AWS Rekognition, and designed the multi-photographer workflow.
+    stack: Laravel, PHP, AWS (S3, Rekognition), MySQL, Tailwind
+    outcome: >
+      Reduced manual photo sorting by 80%. Photographers can now tag thousands
+      of photos automatically.
+
+  - name: SmartTech Australia
+    url: https://smarttechaustralia.com.au/
+    type: Enterprise WordPress
+    what: >
+      Complete rebuild of a 200+ page enterprise website for a technology
+      services company.
+    role: >
+      Lead developer. Managed migration, built custom theme, implemented SEO
+      preservation strategy.
+    stack: WordPress, PHP, Custom Theme, ACF
+    outcome: >
+      Delivered in 4 weeks with zero downtime. Company fully booked for 2 months
+      post-launch.
+
+  - name: DiveBookings.com
+    url: https://divebookings.com/
+    type: Shopify Multi-vendor Marketplace
+    what: >
+      Booking platform connecting divers with scuba, freediving, and
+      spearfishing operators across multiple locations.
+    role: >
+      Full stack developer. Built custom Shopify theme, integrated booking
+      system, developed vendor management dashboard.
+    stack: Shopify (Liquid), JavaScript, Custom API Integrations
+    outcome: >
+      15+ dive operators onboarded. Unified booking and payment processing
+      across all vendors.
+
+  - name: Bitcoin ATM Platform
+    type: Fintech Infrastructure
+    what: >
+      Backend software powering a network of Bitcoin ATMs with real-time wallet
+      integrations and Lightning Network support.
+    role: >
+      Software engineer. Built transaction processing, integrated exchange APIs,
+      implemented security protocols.
+    stack: Node.js, Python, Supabase, Bitcoin APIs, Lightning Network
+    outcome: >
+      Zero security incidents. Sub-second Lightning transactions. Robust error
+      handling reduced failed transactions.
+
+  - name: TMWYGT
+    url: https://tmwygt.com/
+    type: Cross-platform Mobile App
+    what: >
+      Personal safety app that automatically texts your contacts when you arrive
+      at a destination.
+    role: >
+      Lead developer. Built entire app from scratch including geofencing logic,
+      SMS integration, and subscription billing.
+    stack: React Native, Node.js, MongoDB, Google APIs, Stripe
+    outcome: >
+      Beta shipped to TestFlight and Google Play. 95%+ geofence accuracy
+      achieved.
+
+  - name: PetSavers.com.au
+    url: https://petsavers.com.au/
+    type: Shopify eCommerce
+    what: >
+      Full-featured online pet store with extensive product catalog, inventory
+      management, and shipping integrations.
+    role: >
+      Full stack developer. Built custom theme, configured product catalog,
+      integrated payment and shipping providers.
+    stack: Shopify, Liquid, JavaScript
+    outcome: >
+      Launched with 2,000+ SKUs in 3 months. Full inventory sync with supplier
+      systems.
+
+additional:
+  - url: https://carloop.com.au/
+    name: carloop.com.au
+  - url: https://store.carloop.com.au/
+    name: store.carloop.com.au
+  - url: https://getcontent.com.au/
+    name: getcontent.com.au
+  - url: https://goldcoastgymnastics.com/
+    name: goldcoastgymnastics.com
+  - url: https://shop.goldcoastgymnastics.com/
+    name: shop.goldcoastgymnastics.com
+  - url: https://goodnyt.com/
+    name: goodnyt.com
+  - url: https://mmafightstore.com.au/
+    name: mmafightstore.com.au
+  - url: https://naturalfitfootwear.com.au/
+    name: naturalfitfootwear.com.au
+  - url: https://podiatryaustralia.com.au/
+    name: podiatryaustralia.com.au
+  - url: https://thecomfortspecialists.com.au/
+    name: thecomfortspecialists.com.au
+  - url: https://aquawarrior.com.au/
+    name: aquawarrior.com.au
+  - url: https://strongerstrides.com.au/
+    name: strongerstrides.com.au
+  - url: https://tmwygt.com/
+    name: tmwygt.com
+  - url: https://learn.snapshothub.au/
+    name: learn.snapshothub.au
+  - url: https://tathrawharf2waves.com.au/
+    name: tathrawharf2waves.com.au
+  - url: https://carwashwhitsundays.com.au/
+    name: carwashwhitsundays.com.au
+  - url: https://gilbertlodge.com.au/
+    name: gilbertlodge.com.au
+  - url: https://cosmosplumbingandgas.com.au/
+    name: cosmosplumbingandgas.com.au
+  - url: https://weighingsystemsaustralia.com.au/
+    name: weighingsystemsaustralia.com.au
+  - url: https://precisionslideandscreen.com.au/
+    name: precisionslideandscreen.com.au

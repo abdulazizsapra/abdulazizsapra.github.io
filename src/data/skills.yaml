@@ -1,0 +1,57 @@
+- group: Frontend
+  items:
+    - React.js / React Native
+    - TypeScript / JavaScript (ES6+)
+    - HTML5 / CSS3 / Tailwind CSS
+    - Angular / Ionic
+    - Responsive Design
+    - Performance Optimisation
+
+- group: Backend
+  items:
+    - Node.js / Express.js
+    - PHP (Laravel, CodeIgniter)
+    - Python
+    - REST API Design
+    - GraphQL
+    - WebRTC / Red5Pro
+    - Authentication (JWT, OAuth)
+
+- group: Databases
+  items:
+    - MySQL / MariaDB
+    - MongoDB
+    - PostgreSQL
+    - Supabase
+    - Database Design
+    - Query Optimisation
+
+- group: eCommerce & CMS
+  items:
+    - Shopify (Liquid, Themes, Apps)
+    - WordPress (Themes, Plugins, Elementor)
+    - WooCommerce
+    - Webflow
+    - Wix
+    - Multi-vendor Marketplaces
+    - Stripe / PayPal / Afterpay
+    - Checkout Optimisation
+
+- group: DevOps & Cloud
+  items:
+    - AWS (EC2, S3, Lambda, Rekognition)
+    - Docker
+    - CI/CD (GitHub Actions)
+    - Git / GitHub
+    - WP Engine
+    - Linux Server Administration
+    - DNS / SSL / CDN
+
+- group: Tools & Practices
+  items:
+    - Agile / Scrum
+    - Code Reviews
+    - Technical Documentation
+    - Jira / Trello / Wrike
+    - Figma (Design Handoff)
+    - API Integrations

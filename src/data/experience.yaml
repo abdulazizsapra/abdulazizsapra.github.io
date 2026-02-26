@@ -1,0 +1,116 @@
+- title: Full Stack Developer
+  company: Get Content
+  location: Gold Coast, Australia
+  date: 2023 - Jan 2026
+  achievements:
+    - >
+      Rebuilt <strong>SmartTech Australia's</strong> 200+ page enterprise website
+      in 4 weeks with zero downtime, directly contributing to the company being
+      fully booked for 2 months post-launch.
+    - >
+      Architected and developed <strong>SnapshotHub</strong>, an AI-powered
+      photography marketplace featuring AWS Rekognition for facial recognition,
+      reducing manual photo sorting time by 80% for photographers.
+    - >
+      Built <strong>DiveBookings.com</strong> multi-vendor marketplace on
+      Shopify, enabling 15+ dive operators to manage bookings through a unified
+      platform with custom integrations.
+    - >
+      Launched <strong>PetSavers.com.au</strong> with 2,000+ SKUs in 3 months,
+      including full inventory sync, payment processing, and shipping
+      integrations.
+    - >
+      Implemented checkout optimisation for eCommerce clients generating
+      $1M+/month, reducing cart abandonment by 12-18% through UX improvements
+      and faster page loads.
+    - >
+      Delivered 15+ production websites across WordPress, Shopify, and custom
+      Laravel applications, consistently meeting deadlines and client
+      requirements.
+  tech:
+    - Laravel
+    - React
+    - Shopify
+    - WordPress
+    - AWS
+    - MySQL
+    - PHP
+
+- title: Software Engineer
+  company: Matrix Network International
+  location: Netherlands (Remote)
+  date: "2023"
+  achievements:
+    - >
+      Developed core software for Bitcoin ATM network processing real-time
+      cryptocurrency transactions, maintaining <strong>zero security
+      incidents</strong> across all production deployments.
+    - >
+      Integrated 4+ cryptocurrency exchange APIs and Lightning Network wallets
+      (OpenNode), enabling instant Bitcoin transactions with sub-second
+      confirmation.
+    - >
+      Built robust error handling and transaction monitoring system, reducing
+      failed transaction rates and improving customer completion rates.
+    - >
+      Collaborated effectively with distributed team across 3 time zones,
+      participating in daily standups and async code reviews.
+  tech:
+    - Node.js
+    - Python
+    - Supabase
+    - Bitcoin APIs
+    - Lightning Network
+
+- title: Software Engineer
+  company: CodeAdroits
+  location: Pakistan
+  date: "2022"
+  achievements:
+    - >
+      Built <strong>TMWYGT</strong> (Text Me When You Get There) from concept to
+      beta: a cross-platform mobile app with geolocation-triggered SMS
+      notifications for personal safety.
+    - >
+      Integrated Google Geolocation APIs with custom geofencing logic, achieving
+      95%+ accuracy for arrival detection.
+    - >
+      Developed complete subscription management system with Stripe payment
+      integration and automated billing.
+    - >
+      Shipped beta version to TestFlight and Google Play internal testing with
+      full test coverage.
+  tech:
+    - React Native
+    - Node.js
+    - MongoDB
+    - Google APIs
+    - Stripe
+
+- title: Junior Software Engineer
+  company: Migastone International
+  location: Italy (Remote)
+  date: 2020 - 2021
+  achievements:
+    - >
+      Developed <strong>MigaPerformance</strong>, a real-time commission tracking
+      and KPI dashboard used by 50+ real estate agencies to monitor sales
+      performance.
+    - >
+      Created <strong>MigaWordPress</strong>, a secure JWT-authenticated API
+      enabling mobile apps to consume WordPress content, adopted across the
+      company's mobile app builder platform.
+    - >
+      Built <strong>MigaWhatsApp</strong> integration module for the company's
+      drag-and-drop app builder, enabling clients to add WhatsApp functionality
+      without code.
+    - >
+      Developed standalone UTM tracking system using Laravel, providing marketing
+      attribution data for client campaigns.
+  tech:
+    - AngularJS
+    - Ionic
+    - PHP Zend
+    - Laravel
+    - JWT
+    - MySQL

@@ -112,3 +112,9 @@ https://strongerstrides.com.au/ wordpress elementor
 
 
 
+Education:
+
+Bachelor of IT: 
+- Secured Gold Medal for attaing the highest GPA in all semesters of 4 years degree. 
+- Awarded A+ for the best Final Year Project of 2021: Created a streaming application using webrtc, laravel, red5pro media server, mysql  and a mobile app using react native for ios and android and also created a MVP for Vixuz Blade Smart Glasses.
+
