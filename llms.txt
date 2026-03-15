@@ -1,0 +1,23 @@
+# Abdul Aziz — Portfolio
+
+> Full Stack Developer based in Gold Coast, Australia. 5+ years experience, 30+ projects shipped. Full work rights. Seeking permanent roles; open to remote, hybrid, or on-site and relocation Australia-wide.
+
+Abdul Aziz builds web applications, eCommerce platforms (Shopify, WordPress), and custom software. Tech focus: React, Laravel, Node.js, PHP. Zero production security incidents.
+
+- **Title:** Full Stack Developer
+- **Location:** Gold Coast, QLD, Australia
+- **Experience:** 5+ years; 30+ projects delivered
+- **Education:** Master of ICT (Griffith University / Canterbury Institute of Management); BSc IT (Arid Agriculture University)
+- **Contact:** hello@abdulaziz.au | +61 451 556 175
+
+This site is a static portfolio. Content is in YAML; rendered client-side with vanilla JS (ES modules). Sections: hero, snapshot, about, role fit, experience, skills, projects, education, FAQ, contact.
+
+## Profile
+
+- [Portfolio](https://abdulazizsapra.github.io/): Main site with full bio, experience, projects, and contact
+- [LinkedIn](https://www.linkedin.com/in/abdulazizsapra): Professional profile and experience
+- [GitHub](https://github.com/abdulazizsapra): Code and repositories
+
+## Optional
+
+- [Portfolio index](https://abdulazizsapra.github.io/index.html): Same as Portfolio; use when a distinct page URL is required
