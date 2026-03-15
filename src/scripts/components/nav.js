@@ -14,7 +14,7 @@ export function renderNav(personal) {
     <ul class="nav-links" role="list">
       ${navLinks.map(l => `<li><a href="${l.href}">${l.label}</a></li>`)}
     </ul>
-    <a href="#contact" class="nav-cta">Let's Talk</a>
+    <a href="#contact" class="nav-cta">Get in touch</a>
     <button type="button" class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
       <span></span><span></span><span></span>
     </button>

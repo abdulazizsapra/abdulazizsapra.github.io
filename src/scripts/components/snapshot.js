@@ -11,19 +11,16 @@ export function renderSnapshot(personal, education) {
     { label: 'Experience', value: `${(personal.proof || [])[0]?.value || '5+'} years` },
     { label: 'Location', value: personal.location || '' },
     { label: 'Work Rights', value: personal.work_rights || '' },
-    { label: 'Availability', value: personal.availability || '' },
-    { label: 'Work Type', value: personal.work_type || '' },
-    { label: 'Relocation', value: personal.relocation || '' },
   ];
 
   renderInto('#snapshot .container', html`
     <header class="section-header">
-      <span class="section-label">Recruiter Snapshot</span>
-      <h2>The Quick Version</h2>
-      <p>Everything you need to make a decision, at a glance.</p>
+      <span class="section-label">Profile Snapshot</span>
+      <h2>At a Glance</h2>
+      <p>Key details at a glance.</p>
     </header>
 
-    <div class="snapshot-bar" role="list" aria-label="Candidate details">
+    <div class="snapshot-bar" role="list" aria-label="Profile details">
       ${chips.map(c => `
         <span class="snapshot-chip" role="listitem">
           <strong>${c.label}</strong> ${c.value}

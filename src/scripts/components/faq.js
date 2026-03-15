@@ -5,9 +5,9 @@ export function renderFaq(faq) {
 
   renderInto('#faq .container', html`
     <header class="section-header">
-      <span class="section-label">For Recruiters</span>
+      <span class="section-label">FAQ</span>
       <h2>Common Questions</h2>
-      <p>Quick answers for hiring managers and recruiters.</p>
+      <p>Quick answers about my background and work.</p>
     </header>
     <div class="faq-grid">
       ${faq.map(item => `

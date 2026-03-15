@@ -5,12 +5,17 @@ function projectCard(project) {
     ? `<a href="${project.url}" target="_blank" rel="noopener noreferrer">${project.name}<span class="sr-only"> (opens in new tab)</span></a>`
     : project.name;
 
+  const problemBlock = project.problem
+    ? `<p><strong>Problem:</strong> ${project.problem}</p>`
+    : '';
+
   return `
     <article class="project-card${project.featured ? ' project-featured' : ''}">
       ${project.featured ? '<div class="project-badge">Featured</div>' : ''}
       <h3>${nameHtml}</h3>
       <p class="project-type">${project.type || ''}</p>
       <p><strong>What:</strong> ${project.what || ''}</p>
+      ${problemBlock}
       <p><strong>My Role:</strong> ${project.role || ''}</p>
       <div class="project-outcome">
         <strong>Stack:</strong> ${project.stack || ''}

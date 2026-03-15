@@ -2,13 +2,14 @@ import { html, renderInto } from '../utils/dom.js';
 
 export function renderContact(personal) {
   const links = personal.links || {};
+  const intro = personal.contact_intro || 'Open to selected opportunities, collaborations, and engineering conversations. Get in touch below.';
 
   renderInto('#contact .container', html`
     <div class="contact-card">
       <header class="section-header">
         <span class="section-label">Contact</span>
-        <h2>Let's Talk</h2>
-        <p>Seeking full-time permanent roles. Based on the ${personal.location || 'Gold Coast'}, open to relocation anywhere in ${personal.country || 'Australia'}.</p>
+        <h2>Let's Connect</h2>
+        <p>${intro}</p>
       </header>
       <div class="contact-grid">
         ${links.email ? `
@@ -48,7 +49,7 @@ export function renderContact(personal) {
         ` : ''}
       </div>
       <p class="contact-note">
-        <strong>Work Rights:</strong> ${personal.work_rights || 'Full working rights in Australia'}<br>
+        <strong>Work Rights:</strong> ${personal.work_rights || 'Full work rights in Australia'}<br>
         ${personal.contact_note || ''}
       </p>
     </div>

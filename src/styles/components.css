@@ -192,6 +192,13 @@ nav.scrolled {
     display: block;
 }
 
+.hero-subheadline {
+    font-size: 1.125rem;
+    color: var(--text);
+    max-width: 600px;
+    margin-bottom: 0.5rem;
+}
+
 .hero-lead {
     font-size: 1.125rem;
     color: var(--text-muted);
@@ -445,11 +452,15 @@ nav.scrolled {
     margin-top: 0.25rem;
 }
 
-/* === ROLE FIT === */
+/* === HOW I WORK (formerly Role Fit) === */
 .rolefit-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 1.5rem;
+}
+
+.snapshot-card--full {
+    grid-column: 1 / -1;
 }
 
 .card-list {
