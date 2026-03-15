@@ -4,29 +4,33 @@ featured:
     type: AI Photography Marketplace
     featured: true
     what: >
-      A marketplace where event photographers upload photos and attendees find
-      themselves using AI facial recognition.
+      Marketplace where event photographers upload photos and attendees find
+      themselves via AI facial recognition.
+    problem: >
+      Manual sorting of thousands of event photos was slow and error-prone.
     role: >
-      Sole developer. Architected the system, built the Laravel backend,
-      integrated AWS Rekognition, and designed the multi-photographer workflow.
+      Sole developer. Architected system, built Laravel backend, integrated
+      AWS Rekognition, designed multi-photographer workflow.
     stack: Laravel, PHP, AWS (S3, Rekognition), MySQL, Tailwind
     outcome: >
-      Reduced manual photo sorting by 80%. Photographers can now tag thousands
-      of photos automatically.
+      Manual photo sorting reduced by 80%; photographers tag thousands of
+      photos automatically.
 
   - name: SmartTech Australia
     url: https://smarttechaustralia.com.au/
     type: Enterprise WordPress
     what: >
-      Complete rebuild of a 200+ page enterprise website for a technology
-      services company.
+      Full rebuild of 200+ page enterprise website for a technology services
+      company.
+    problem: >
+      Legacy site needed modernisation, SEO preservation, and zero-downtime
+      migration.
     role: >
-      Lead developer. Managed migration, built custom theme, implemented SEO
-      preservation strategy.
+      Lead developer. Migration, custom theme, SEO preservation strategy.
     stack: WordPress, PHP, Custom Theme, ACF
     outcome: >
-      Delivered in 4 weeks with zero downtime. Company fully booked for 2 months
-      post-launch.
+      Delivered in 4 weeks with zero downtime; company fully booked for
+      2 months post-launch.
 
   - name: DiveBookings.com
     url: https://divebookings.com/
@@ -34,53 +38,63 @@ featured:
     what: >
       Booking platform connecting divers with scuba, freediving, and
       spearfishing operators across multiple locations.
+    problem: >
+      Operators needed a single place to list and manage bookings; customers
+      needed unified discovery and payment.
     role: >
-      Full stack developer. Built custom Shopify theme, integrated booking
-      system, developed vendor management dashboard.
+      Full stack developer. Custom Shopify theme, booking integration, vendor
+      management dashboard.
     stack: Shopify (Liquid), JavaScript, Custom API Integrations
     outcome: >
-      15+ dive operators onboarded. Unified booking and payment processing
-      across all vendors.
+      15+ dive operators onboarded; unified booking and payment across
+      all vendors.
 
   - name: Bitcoin ATM Platform
     type: Fintech Infrastructure
     what: >
-      Backend software powering a network of Bitcoin ATMs with real-time wallet
-      integrations and Lightning Network support.
+      Backend software for a Bitcoin ATM network: real-time wallet integrations,
+      Lightning Network support.
+    problem: >
+      Reliable, secure transaction processing and minimal failed transactions
+      at scale.
     role: >
-      Software engineer. Built transaction processing, integrated exchange APIs,
-      implemented security protocols.
+      Software engineer. Transaction processing, exchange API integrations,
+      security protocols.
     stack: Node.js, Python, Supabase, Bitcoin APIs, Lightning Network
     outcome: >
-      Zero security incidents. Sub-second Lightning transactions. Robust error
-      handling reduced failed transactions.
+      Zero security incidents in production; sub-second Lightning
+      transactions; reduced failed transaction rates.
 
   - name: TMWYGT
     url: https://tmwygt.com/
     type: Cross-platform Mobile App
     what: >
-      Personal safety app that automatically texts your contacts when you arrive
-      at a destination.
+      Personal safety app that texts your contacts when you arrive at a
+      destination.
+    problem: >
+      Users wanted automatic arrival notifications without manual check-ins.
     role: >
-      Lead developer. Built entire app from scratch including geofencing logic,
-      SMS integration, and subscription billing.
+      Lead developer. Full app: geofencing, SMS integration, subscription
+      billing.
     stack: React Native, Node.js, MongoDB, Google APIs, Stripe
     outcome: >
-      Beta shipped to TestFlight and Google Play. 95%+ geofence accuracy
-      achieved.
+      Beta shipped to TestFlight and Google Play; 95%+ geofence accuracy.
 
   - name: PetSavers.com.au
     url: https://petsavers.com.au/
     type: Shopify eCommerce
     what: >
-      Full-featured online pet store with extensive product catalog, inventory
-      management, and shipping integrations.
+      Full-featured online pet store: large catalog, inventory management,
+      shipping integrations.
+    problem: >
+      Client needed a scalable store with 2,000+ SKUs and supplier inventory
+      sync.
     role: >
-      Full stack developer. Built custom theme, configured product catalog,
-      integrated payment and shipping providers.
+      Full stack developer. Custom theme, product catalog, payment and
+      shipping integrations.
     stack: Shopify, Liquid, JavaScript
     outcome: >
-      Launched with 2,000+ SKUs in 3 months. Full inventory sync with supplier
+      2,000+ SKUs launched in 3 months; full inventory sync with supplier
       systems.
 
 additional:

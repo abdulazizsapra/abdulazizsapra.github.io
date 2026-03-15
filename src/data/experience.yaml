@@ -4,29 +4,23 @@
   date: 2023 - Jan 2026
   achievements:
     - >
-      Rebuilt <strong>SmartTech Australia's</strong> 200+ page enterprise website
-      in 4 weeks with zero downtime, directly contributing to the company being
-      fully booked for 2 months post-launch.
+      Rebuilt <strong>SmartTech Australia's</strong> 200+ page enterprise site
+      in 4 weeks with zero downtime; company fully booked for 2 months
+      post-launch.
     - >
-      Architected and developed <strong>SnapshotHub</strong>, an AI-powered
-      photography marketplace featuring AWS Rekognition for facial recognition,
-      reducing manual photo sorting time by 80% for photographers.
+      Architected and built <strong>SnapshotHub</strong>, an AI photography
+      marketplace with AWS Rekognition; reduced manual photo sorting by 80%.
     - >
-      Built <strong>DiveBookings.com</strong> multi-vendor marketplace on
-      Shopify, enabling 15+ dive operators to manage bookings through a unified
-      platform with custom integrations.
+      Built <strong>DiveBookings.com</strong> multi-vendor Shopify marketplace;
+      15+ dive operators onboarded with unified booking and payments.
     - >
-      Launched <strong>PetSavers.com.au</strong> with 2,000+ SKUs in 3 months,
-      including full inventory sync, payment processing, and shipping
-      integrations.
+      Launched <strong>PetSavers.com.au</strong> with 2,000+ SKUs in 3 months;
+      full inventory sync, payment, and shipping integrations.
     - >
-      Implemented checkout optimisation for eCommerce clients generating
-      $1M+/month, reducing cart abandonment by 12-18% through UX improvements
-      and faster page loads.
+      Worked on eCommerce systems processing $1M+/month; implemented checkout
+      and UX improvements that reduced cart abandonment by 12–18%.
     - >
-      Delivered 15+ production websites across WordPress, Shopify, and custom
-      Laravel applications, consistently meeting deadlines and client
-      requirements.
+      Delivered 15+ production sites across WordPress, Shopify, and Laravel.
   tech:
     - Laravel
     - React
@@ -42,19 +36,17 @@
   date: "2023"
   achievements:
     - >
-      Developed core software for Bitcoin ATM network processing real-time
-      cryptocurrency transactions, maintaining <strong>zero security
-      incidents</strong> across all production deployments.
+      Built core software for Bitcoin ATM network; real-time transactions,
+      <strong>zero security incidents</strong> in production.
     - >
-      Integrated 4+ cryptocurrency exchange APIs and Lightning Network wallets
-      (OpenNode), enabling instant Bitcoin transactions with sub-second
-      confirmation.
+      Integrated 4+ exchange APIs and Lightning Network (OpenNode); sub-second
+      Bitcoin transactions.
     - >
-      Built robust error handling and transaction monitoring system, reducing
-      failed transaction rates and improving customer completion rates.
+      Implemented error handling and transaction monitoring; reduced failed
+      transaction rates and improved completion rates.
     - >
-      Collaborated effectively with distributed team across 3 time zones,
-      participating in daily standups and async code reviews.
+      Worked with distributed team across 3 time zones; daily standups, async
+      code reviews.
   tech:
     - Node.js
     - Python
@@ -68,18 +60,14 @@
   date: "2022"
   achievements:
     - >
-      Built <strong>TMWYGT</strong> (Text Me When You Get There) from concept to
-      beta: a cross-platform mobile app with geolocation-triggered SMS
-      notifications for personal safety.
+      Built <strong>TMWYGT</strong> from concept to beta: cross-platform safety
+      app with geofencing and SMS notifications.
     - >
-      Integrated Google Geolocation APIs with custom geofencing logic, achieving
-      95%+ accuracy for arrival detection.
+      Integrated Google Geolocation APIs with custom geofencing; 95%+ arrival
+      detection accuracy.
     - >
-      Developed complete subscription management system with Stripe payment
-      integration and automated billing.
-    - >
-      Shipped beta version to TestFlight and Google Play internal testing with
-      full test coverage.
+      Implemented subscription billing with Stripe; shipped beta to TestFlight
+      and Google Play.
   tech:
     - React Native
     - Node.js
@@ -93,20 +81,16 @@
   date: 2020 - 2021
   achievements:
     - >
-      Developed <strong>MigaPerformance</strong>, a real-time commission tracking
-      and KPI dashboard used by 50+ real estate agencies to monitor sales
-      performance.
+      Built <strong>MigaPerformance</strong>, real-time commission and KPI
+      dashboard for 50+ real estate agencies.
     - >
-      Created <strong>MigaWordPress</strong>, a secure JWT-authenticated API
-      enabling mobile apps to consume WordPress content, adopted across the
-      company's mobile app builder platform.
+      Created <strong>MigaWordPress</strong>, JWT-authenticated API for mobile
+      apps to consume WordPress content; adopted across app builder platform.
     - >
-      Built <strong>MigaWhatsApp</strong> integration module for the company's
-      drag-and-drop app builder, enabling clients to add WhatsApp functionality
-      without code.
+      Built <strong>MigaWhatsApp</strong> integration for drag-and-drop app
+      builder; clients added WhatsApp without code.
     - >
-      Developed standalone UTM tracking system using Laravel, providing marketing
-      attribution data for client campaigns.
+      Delivered UTM tracking system in Laravel for marketing attribution.
   tech:
     - AngularJS
     - Ionic
