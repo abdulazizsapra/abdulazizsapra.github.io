@@ -10,7 +10,7 @@ export function renderHero(personal) {
     <div class="hero-content">
       <div class="hero-badge">
         <span class="pulse"></span>
-        ${personal.location || ''}, ${personal.country || ''} · ${personal.work_rights || ''}
+        ${personal.location || ''}, ${personal.country || ''}
       </div>
       <h1>
         <span class="hero-line">${personal.title || ''}</span>

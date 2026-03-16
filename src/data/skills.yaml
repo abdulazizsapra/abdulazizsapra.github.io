@@ -1,3 +1,12 @@
+- group: AI & Systems
+  items:
+    - AI Commerce
+    - System Design
+    - Multi-agent Systems
+    - AI Integrations & Automation
+    - AWS Rekognition
+    - Practical AI Tools
+
 - group: Frontend
   items:
     - React.js / React Native

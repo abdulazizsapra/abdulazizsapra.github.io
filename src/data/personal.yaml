@@ -1,6 +1,6 @@
 name: Abdul Aziz
-title: Full Stack Developer
-tagline: Shipping production code since 2020
+title: Software Engineer
+tagline: AI & commerce. Building practical tools.
 location: Gold Coast, QLD
 country: Australia
 work_rights: Full work rights
@@ -13,32 +13,32 @@ work_mode: Remote, hybrid, or on-site
 
 # Hero: headline = title; subheadline and supporting copy below
 subheadline: >
-  I build scalable web applications, eCommerce platforms, and custom software
-  that solve real business problems.
+  I build software that solves real problems. eCommerce, AI tools, automation.
 supporting_copy: >
-  Over the past 5+ years, I've shipped 30+ production projects across Shopify,
-  Laravel, React, WordPress, and AWS, with work spanning eCommerce, fintech,
-  marketplaces, and enterprise web systems.
+  Make systems smarter, reduce manual work, help businesses run smoother.
+  Still curious. Still building.
 
 summary: >
-  I build scalable web applications, eCommerce platforms, and custom software
-  that solve real business problems. Over the past 5+ years, I've shipped 30+
-  production projects across Shopify, Laravel, React, WordPress, and AWS, with
-  work spanning eCommerce, fintech, marketplaces, and enterprise web systems.
+  I build software that solves real problems. Most of my work is around
+  eCommerce, AI tools, and automation. I take messy problems and turn them into
+  clean, working systems. Technology moves quickly and I like staying close to
+  it, testing new tools, experimenting with ideas, and figuring out what
+  actually works in the real world. Still curious. Still building.
 
 about:
   - >
-    I'm a Full Stack Developer who turns business problems into working software.
-    I choose tools pragmatically—the right fit for the job, not the trendiest
-    option. I care about maintainability, performance, and business outcomes,
-    and I work effectively across stakeholders, agencies, internal teams, and
-    direct client engagements.
+    I'm a Software Engineer who builds software that solves real problems. Most
+    of my work is around eCommerce, AI tools, and automation. I choose tools
+    pragmatically: the right fit for the job, not the trendiest option. I care
+    about maintainability, performance, and business outcomes, and I work
+    effectively across stakeholders, agencies, internal teams, and direct client
+    engagements.
   - >
     My work spans eCommerce, fintech, and enterprise web systems. I've shipped
-    production code across Shopify, Laravel, React, WordPress, and AWS—from
-    multi-vendor marketplaces and high-traffic storefronts to fintech
-    infrastructure and 200+ page enterprise rebuilds. I hold a Master of ICT from
-    Griffith University and bring a senior, outcome-focused approach to every
+    production code across Shopify, Laravel, React, WordPress, and AWS, from
+    multi-vendor marketplaces and AI-powered features (e.g. AWS Rekognition) to
+    fintech infrastructure and 200+ page enterprise rebuilds. I hold a Master of
+    ICT from Griffith University and bring an outcome-focused approach to every
     project.
 
 proof:
@@ -53,7 +53,8 @@ hero_tags:
   - React / Node.js
   - Laravel / PHP
   - Shopify
-  - WordPress
+  - AI Commerce
+  - System Design
   - AWS
 
 links:
@@ -68,8 +69,7 @@ contact_note: >
   I typically respond within 24 hours. For urgent enquiries, call or text.
 
 contact_intro: >
-  Open to selected opportunities, collaborations, and engineering conversations.
-  Get in touch below.
+  For collaborations, consulting, or engineering conversations. Get in touch below.
 
 industries:
   - Digital Agencies
@@ -83,11 +83,12 @@ core_stack:
   Frontend: React, TypeScript, JavaScript
   Backend: Node.js, Laravel, PHP
   eCommerce: Shopify, WordPress, WooCommerce
-  Database: MySQL, MongoDB
+  AI & Systems: AI integrations, System Design, Multi-agent systems, Automation
+  Database: MySQL, MongoDB, Supabase
   Cloud: AWS, Docker
 
 how_i_work:
-  - Pragmatic technology choices—right tool for the job, not the trend.
+  - Pragmatic technology choices: right tool for the job, not the trend.
   - Ownership mentality; I ship and maintain production code.
   - Business-aware engineering; outcomes, maintainability, and reliability.
   - Clear technical communication with teams and stakeholders.
@@ -96,8 +97,8 @@ how_i_work:
   - Works well independently and in teams; comfortable with Agile workflows.
 
 meta:
-  title: "Abdul Aziz | Full Stack Developer | React, Laravel, Shopify, WordPress | Gold Coast, Australia"
-  description: "Full Stack Developer and web systems engineer. 5+ years shipping production code across Shopify, Laravel, React, WordPress, and AWS. Portfolio and selected work. Based in Gold Coast, Australia."
-  keywords: "Full Stack Developer Australia, Web Developer Gold Coast, React Developer, Node.js Developer, Laravel Developer, PHP Developer, Shopify Developer Australia, WordPress Developer Australia, Software Engineer, eCommerce Developer, Full Work Rights Australia"
-  og_title: "Abdul Aziz | Full Stack Developer | Gold Coast, Australia"
-  og_description: "Full Stack Developer. 5+ years, 30+ projects shipped. React, Node.js, Laravel, Shopify, WordPress. Portfolio and selected work. Gold Coast, Australia."
+  title: "Abdul Aziz | Software Engineer | AI Integrations, Shopify & Commerce | Gold Coast, Australia"
+  description: "Software Engineer building practical AI tools and commerce systems. eCommerce, AI integrations, automation. React, Node, Laravel, Shopify. Portfolio and selected work. Gold Coast, Australia."
+  keywords: "Software Engineer Australia, AI Commerce, System Design, Shopify Developer, React Developer, Node.js Developer, Laravel Developer, eCommerce Developer, Gold Coast, Australia"
+  og_title: "Abdul Aziz | Software Engineer | AI Integrations & Commerce Systems"
+  og_description: "Software Engineer. AI integrations, Shopify & commerce systems. Building practical AI tools. React, Node, Laravel. Portfolio. Gold Coast, Australia."

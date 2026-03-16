@@ -18,7 +18,7 @@ export function renderAbout(personal) {
         <div class="about-photo__frame">
           <picture>
             <source srcset="src/assets/profile.webp" type="image/webp">
-            <img src="src/assets/profile.png" alt="Abdul Aziz — Full Stack Developer" width="400" height="528">
+            <img src="src/assets/profile.png" alt="Abdul Aziz, Full Stack Developer" width="400" height="528">
           </picture>
         </div>
         <div class="about-photo__dots about-photo__dots--tl" aria-hidden="true"></div>

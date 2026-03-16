@@ -75,7 +75,7 @@ export function renderSnapshot(personal, education) {
           <p>
             <strong>${secondEdu.degree ? secondEdu.degree.replace(/Bachelor of Science in Information Technology/, 'Bachelor of IT') : ''}</strong><br>
             <span class="snapshot-edu__date">${secondEdu.date || ''}</span><br>
-            <span class="snapshot-edu__award">Gold Medal — Highest GPA</span>
+            <span class="snapshot-edu__award">Gold Medal, Highest GPA</span>
           </p>
         </div>
       </article>

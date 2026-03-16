@@ -1,7 +1,13 @@
 import { html, renderInto } from '../utils/dom.js';
 
+function asText(item) {
+  if (typeof item === 'string') return item;
+  if (item && typeof item === 'object') return item.text || item.label || item.content || '';
+  return String(item);
+}
+
 export function renderRoleFit(personal) {
-  const items = personal.how_i_work || [];
+  const items = (personal.how_i_work || []).map(asText).filter(Boolean);
 
   renderInto('#role-fit .container', html`
     <header class="section-header">

@@ -1,16 +1,16 @@
-# Abdul Aziz — Portfolio
+# Abdul Aziz, Portfolio
 
-> Full Stack Developer based in Gold Coast, Australia. 5+ years experience, 30+ projects shipped. Portfolio and selected work; open to collaborations and engineering conversations.
+> Software Engineer based in Gold Coast, Australia. AI integrations, Shopify & commerce systems, practical AI tools. Portfolio and selected work; collaborations and engineering conversations welcome.
 
-Abdul Aziz builds scalable web applications, eCommerce platforms (Shopify, WordPress), and custom software. Tech focus: React, Laravel, Node.js, PHP. Work spans eCommerce, fintech, marketplaces, and enterprise web systems.
+Abdul Aziz builds software that solves real problems. Focus: eCommerce, AI tools, and automation. Tech: React, Node, Laravel, Shopify, system design, multi-agent systems. Work spans eCommerce, fintech, marketplaces, and enterprise web systems.
 
-- **Title:** Full Stack Developer
+- **Title:** Software Engineer
 - **Location:** Gold Coast, QLD, Australia
 - **Experience:** 5+ years; 30+ projects delivered
 - **Education:** Master of ICT (Griffith University / Canterbury Institute of Management); BSc IT (Arid Agriculture University)
 - **Contact:** hello@abdulaziz.au | +61 451 556 175
 
-This site is a static portfolio. Content is in YAML; rendered client-side with vanilla JS (ES modules). Sections: hero, profile snapshot, about, how I work, experience, skills, projects, education, FAQ, contact.
+This site is a static portfolio (not job-seeking). Content is in YAML; rendered client-side with vanilla JS (ES modules). Sections: hero, profile snapshot, about, how I work, experience, skills, projects, education, FAQ, contact.
 
 ## Profile
 

@@ -8,11 +8,12 @@
 
 - question: What is your core tech stack?
   answer: >
-    <strong>Frontend:</strong> React, TypeScript, JavaScript, HTML5, CSS3,
-    Tailwind.<br><strong>Backend:</strong> Node.js, Laravel, PHP,
-    Python.<br><strong>eCommerce:</strong> Shopify (Liquid), WordPress,
-    WooCommerce.<br><strong>Database:</strong> MySQL, MongoDB,
-    PostgreSQL.<br><strong>Cloud:</strong> AWS (EC2, S3, Lambda),
+    <strong>AI & Systems:</strong> AI Commerce, System Design, Multi-agent
+    systems, AI integrations, Automation, AWS Rekognition.<br><strong>Frontend:</strong>
+    React, TypeScript, JavaScript, HTML5, CSS3, Tailwind.<br><strong>Backend:</strong>
+    Node.js, Laravel, PHP, Python.<br><strong>eCommerce:</strong> Shopify (Liquid),
+    WordPress, WooCommerce.<br><strong>Database:</strong> MySQL, MongoDB,
+    PostgreSQL, Supabase.<br><strong>Cloud:</strong> AWS (EC2, S3, Lambda),
     Docker.<br><strong>Tools:</strong> Git, GitHub Actions, Jira, Figma.
 
 - question: Do you have experience working in teams?
