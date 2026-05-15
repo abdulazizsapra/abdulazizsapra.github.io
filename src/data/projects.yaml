@@ -17,8 +17,8 @@ featured:
       and inventory risk system.
     stack: Python, Azure SQL / T-SQL, Claude (LLM Orchestration), Shopify API, Amazon SP API, Meta Ads API, Klaviyo, FiveTran
     outcome: >
-      Ingests 430,000+ customer-order records across 5 markets; produces
-      autonomous executive briefings covering $6.7M+ AUD YTD revenue, 41,000+
+      Ingests 430K+ customer-order records across 5 markets; produces
+      autonomous executive briefings covering $6.7M+ AUD YTD revenue, 41K+
       orders, ad spend efficiency, and supply chain — with zero human
       preparation time. Time-to-insight reduced from hours to seconds.
 

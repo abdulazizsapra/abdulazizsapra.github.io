@@ -20,7 +20,7 @@ supporting_copy: >
 summary: >
   I design and deploy autonomous AI agents that replace manual reporting and
   operational overhead. My current work involves building COMMAND — an autonomous
-  business intelligence agent ingesting 430,000+ customer records across 5 markets,
+  business intelligence agent ingesting 430K+ customer records across 5 markets,
   producing executive-grade analysis with zero human preparation time. I work at
   the intersection of LLM orchestration, data engineering, and business strategy.
   Not dashboards. Decisions. Still curious. Still building.
@@ -35,7 +35,7 @@ about:
   - >
     My current work centres on LLM orchestration, multi-source data pipelines,
     and commerce automation across multi-market eCommerce operations. I've built
-    autonomous agents ingesting 430,000+ records across Shopify, Amazon, Meta,
+    autonomous agents ingesting 430K+ records across Shopify, Amazon, Meta,
     and Klaviyo; modelled 8 years of cohort retention data; and automated
     intelligence covering $6.7M+ AUD in revenue. I hold a Master of ICT and
     bring an outcome-first approach to every system I build.

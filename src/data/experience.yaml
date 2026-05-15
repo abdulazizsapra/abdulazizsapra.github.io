@@ -6,9 +6,9 @@
     - >
       Designed and deployed <strong>COMMAND</strong>, an autonomous business
       intelligence agent querying live Azure SQL across 5 markets, ingesting
-      <strong>430,000+ customer-order records</strong> from Shopify, Amazon SP,
+      <strong>430K+ customer-order records</strong> from Shopify, Amazon SP,
       Meta Ads, and Klaviyo — producing autonomous executive briefings covering
-      <strong>$6.7M+ AUD YTD revenue</strong>, 41,000+ orders, ad spend
+      <strong>$6.7M+ AUD YTD revenue</strong>, 41K+ orders, ad spend
       efficiency, and supply chain status with zero human preparation time.
     - >
       Built multi-source data pipelines (Azure SQL, SharePoint, Gmail, Slack)
