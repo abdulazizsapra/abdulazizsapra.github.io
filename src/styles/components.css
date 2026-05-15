@@ -428,6 +428,7 @@ nav.scrolled {
 }
 
 .snapshot-proof__value {
+    display: inline-block;
     font-size: 2rem;
     font-weight: 800;
     line-height: 1;
