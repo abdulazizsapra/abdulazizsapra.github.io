@@ -413,6 +413,36 @@ nav.scrolled {
     color: var(--text-muted);
 }
 
+/* Proof stats card */
+.snapshot-proof {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+    margin-top: 0.25rem;
+}
+
+.snapshot-proof__item {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+}
+
+.snapshot-proof__value {
+    font-size: 2rem;
+    font-weight: 800;
+    line-height: 1;
+    background: linear-gradient(135deg, var(--accent-light), var(--accent));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.snapshot-proof__label {
+    font-size: 0.8125rem;
+    color: var(--text-muted);
+    font-weight: 500;
+}
+
 /* Industries list */
 .snapshot-list {
     display: flex;
@@ -974,7 +1004,7 @@ nav.scrolled {
 }
 
 .project-link {
-    display: inline-flex;
+    display: flex;
     align-items: center;
     gap: 0.25rem;
     margin-top: 1rem;
@@ -994,6 +1024,17 @@ nav.scrolled {
     border-color: var(--accent);
     background: rgba(99, 102, 241, 0.1);
     color: var(--text);
+}
+
+.project-no-url {
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    font-size: 0.8125rem;
+    color: var(--text-dim);
+    border: 1px dashed var(--border);
 }
 
 .sites-showcase {

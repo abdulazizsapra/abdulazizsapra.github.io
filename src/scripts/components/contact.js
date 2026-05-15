@@ -49,7 +49,6 @@ export function renderContact(personal) {
         ` : ''}
       </div>
       <p class="contact-note">
-        <strong>Work Rights:</strong> ${personal.work_rights || 'Full work rights in Australia'}<br>
         ${personal.contact_note || ''}
       </p>
     </div>

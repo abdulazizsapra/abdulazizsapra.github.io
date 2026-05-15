@@ -18,17 +18,17 @@ export function renderAbout(personal) {
         <div class="about-photo__frame">
           <picture>
             <source srcset="src/assets/profile.webp" type="image/webp">
-            <img src="src/assets/profile.png" alt="Abdul Aziz, Full Stack Developer" width="400" height="528">
+            <img src="src/assets/profile.png" alt="Abdul Aziz, AI &amp; Automation Solutions Architect" width="400" height="528">
           </picture>
         </div>
         <div class="about-photo__dots about-photo__dots--tl" aria-hidden="true"></div>
         <div class="about-photo__dots about-photo__dots--br" aria-hidden="true"></div>
-        <span class="about-photo__tag about-photo__tag--1" aria-hidden="true">React</span>
-        <span class="about-photo__tag about-photo__tag--2" aria-hidden="true">Laravel</span>
-        <span class="about-photo__tag about-photo__tag--3" aria-hidden="true">AWS</span>
-        <span class="about-photo__tag about-photo__tag--4" aria-hidden="true">Node.js</span>
+        <span class="about-photo__tag about-photo__tag--1" aria-hidden="true">AI Agents</span>
+        <span class="about-photo__tag about-photo__tag--2" aria-hidden="true">Python</span>
+        <span class="about-photo__tag about-photo__tag--3" aria-hidden="true">Azure</span>
+        <span class="about-photo__tag about-photo__tag--4" aria-hidden="true">Claude</span>
         <span class="about-photo__tag about-photo__tag--5" aria-hidden="true">Shopify</span>
-        <span class="about-photo__tag about-photo__tag--6" aria-hidden="true">PHP</span>
+        <span class="about-photo__tag about-photo__tag--6" aria-hidden="true">Automation</span>
       </div>
     </div>
 

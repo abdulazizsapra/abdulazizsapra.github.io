@@ -1,4 +1,68 @@
 featured:
+  - name: COMMAND
+    type: Autonomous Business Intelligence Agent
+    featured: true
+    what: >
+      An autonomous AI agent that acts as a real-time operational intelligence
+      layer for a multi-market eCommerce business (AU, UK, EU, US). Queries live
+      databases, ingests data from five platforms, and delivers decision-grade
+      executive briefings on demand — no human preparation required.
+    problem: >
+      Decision-makers were spending hours manually pulling reports from
+      disconnected systems across five markets, with no unified view of
+      operations, inventory, or ad performance.
+    role: >
+      Sole architect and builder. Designed the agent architecture, LLM
+      orchestration layer, multi-source data pipeline, cohort retention model,
+      and inventory risk system.
+    stack: Python, Azure SQL / T-SQL, Claude (LLM Orchestration), Shopify API, Amazon SP API, Meta Ads API, Klaviyo, FiveTran
+    outcome: >
+      Ingests 430,000+ customer-order records across 5 markets; produces
+      autonomous executive briefings covering $6.7M+ AUD YTD revenue, 41,000+
+      orders, ad spend efficiency, and supply chain — with zero human
+      preparation time. Time-to-insight reduced from hours to seconds.
+
+  - name: Multilingual AI Voice Agents
+    type: AI Customer Support Infrastructure
+    featured: true
+    what: >
+      Multilingual Aircall AI voice agents deployed across 6 regional markets,
+      each backed by a localised knowledge base built from regional websites,
+      product guidance, issue-resolution flows, and FAQ content.
+    problem: >
+      Several markets were losing a high proportion of inbound calls — UK at
+      51%, Germany at 66%, Spain at 68% — with no scalable way to support
+      customers outside business hours or in their local language.
+    role: >
+      Built and configured all 6 market agents. Crawled regional websites,
+      extracted product and support knowledge, built multilingual FAQ datasets,
+      and coordinated with local country teams to verify translations.
+    stack: Aircall AI, Knowledge Base Engineering, Multilingual NLP, Regional Localisation
+    outcome: >
+      Deployed across AU, UK, FR, DE, IT, and ES; improved AI support
+      readiness across all markets; created a scalable multilingual support
+      foundation reducing pressure on human customer service teams.
+
+  - name: Dynamic Checkout Messaging App
+    type: Shopify App — EU Stores
+    featured: true
+    what: >
+      A custom Shopify app that dynamically displays delivery guidance at
+      checkout based on shipping method, product type, variant, and
+      store-specific rules across multiple EU stores.
+    problem: >
+      Customers were selecting locker delivery for orders containing oversized
+      cartons that physically could not fit in a locker, causing failed
+      deliveries, returns, and avoidable support tickets after the order.
+    role: >
+      Sole developer. Designed the hybrid data architecture, built the
+      rule engine, and implemented multi-store configuration support.
+    stack: Shopify (Metafields, App Extensions), Node.js, Prisma, JavaScript
+    outcome: >
+      Prevents unsuitable locker delivery selections at the point of
+      purchase; reduced avoidable delivery failures and returns; reusable
+      across multiple EU stores with flexible per-store configuration.
+
   - name: SnapshotHub
     url: https://snapshothub.au/
     type: AI Photography Marketplace
@@ -16,88 +80,32 @@ featured:
       Manual photo sorting reduced by 80%; photographers tag thousands of
       photos automatically.
 
-  - name: SmartTech Australia
-    url: https://smarttechaustralia.com.au/
-    type: Enterprise WordPress
-    what: >
-      Full rebuild of 200+ page enterprise website for a technology services
-      company.
-    problem: >
-      Legacy site needed modernisation, SEO preservation, and zero-downtime
-      migration.
-    role: >
-      Lead developer. Migration, custom theme, SEO preservation strategy.
-    stack: WordPress, PHP, Custom Theme, ACF
-    outcome: >
-      Delivered in 4 weeks with zero downtime; company fully booked for
-      2 months post-launch.
-
-  - name: DiveBookings.com
-    url: https://divebookings.com/
-    type: Shopify Multi-vendor Marketplace
-    what: >
-      Booking platform connecting divers with scuba, freediving, and
-      spearfishing operators across multiple locations.
-    problem: >
-      Operators needed a single place to list and manage bookings; customers
-      needed unified discovery and payment.
-    role: >
-      Full stack developer. Custom Shopify theme, booking integration, vendor
-      management dashboard.
-    stack: Shopify (Liquid), JavaScript, Custom API Integrations
-    outcome: >
-      15+ dive operators onboarded; unified booking and payment across
-      all vendors.
-
   - name: Bitcoin ATM Platform
     type: Fintech Infrastructure
+    featured: true
     what: >
       Backend software for a Bitcoin ATM network: real-time wallet integrations,
-      Lightning Network support.
+      Lightning Network support, and automated transaction monitoring.
     problem: >
-      Reliable, secure transaction processing and minimal failed transactions
-      at scale.
+      Reliable, secure transaction processing with minimal failed transactions
+      at scale across multiple exchange integrations.
     role: >
       Software engineer. Transaction processing, exchange API integrations,
-      security protocols.
-    stack: Node.js, Python, Supabase, Bitcoin APIs, Lightning Network
+      error handling, and monitoring systems.
+    stack: Node.js, Python, Supabase, Bitcoin APIs, Lightning Network (OpenNode)
     outcome: >
-      Zero security incidents in production; sub-second Lightning
-      transactions; reduced failed transaction rates.
-
-  - name: TMWYGT
-    url: https://tmwygt.com/
-    type: Cross-platform Mobile App
-    what: >
-      Personal safety app that texts your contacts when you arrive at a
-      destination.
-    problem: >
-      Users wanted automatic arrival notifications without manual check-ins.
-    role: >
-      Lead developer. Full app: geofencing, SMS integration, subscription
-      billing.
-    stack: React Native, Node.js, MongoDB, Google APIs, Stripe
-    outcome: >
-      Beta shipped to TestFlight and Google Play; 95%+ geofence accuracy.
-
-  - name: PetSavers.com.au
-    url: https://petsavers.com.au/
-    type: Shopify eCommerce
-    what: >
-      Full-featured online pet store: large catalog, inventory management,
-      shipping integrations.
-    problem: >
-      Client needed a scalable store with 2,000+ SKUs and supplier inventory
-      sync.
-    role: >
-      Full stack developer. Custom theme, product catalog, payment and
-      shipping integrations.
-    stack: Shopify, Liquid, JavaScript
-    outcome: >
-      2,000+ SKUs launched in 3 months; full inventory sync with supplier
-      systems.
+      Zero security incidents in production; sub-second Lightning transactions;
+      reduced failed transaction rates through automated monitoring.
 
 additional:
+  - url: https://divebookings.com/
+    name: divebookings.com
+  - url: https://tmwygt.com/
+    name: tmwygt.com
+  - url: https://smarttechaustralia.com.au/
+    name: smarttechaustralia.com.au
+  - url: https://petsavers.com.au/
+    name: petsavers.com.au
   - url: https://carloop.com.au/
     name: carloop.com.au
   - url: https://store.carloop.com.au/
@@ -122,8 +130,6 @@ additional:
     name: aquawarrior.com.au
   - url: https://strongerstrides.com.au/
     name: strongerstrides.com.au
-  - url: https://tmwygt.com/
-    name: tmwygt.com
   - url: https://learn.snapshothub.au/
     name: learn.snapshothub.au
   - url: https://tathrawharf2waves.com.au/

@@ -3,25 +3,24 @@
     Email <strong>hello@abdulaziz.au</strong> or use the contact links below.
     I typically respond within 24 hours. For urgent enquiries, call or text.
 
-- question: Do you have work rights in Australia?
-  answer: Yes. I have full work rights in Australia.
-
 - question: What is your core tech stack?
   answer: >
-    <strong>AI & Systems:</strong> AI Commerce, System Design, Multi-agent
-    systems, AI integrations, Automation, AWS Rekognition.<br><strong>Frontend:</strong>
-    React, TypeScript, JavaScript, HTML5, CSS3, Tailwind.<br><strong>Backend:</strong>
-    Node.js, Laravel, PHP, Python.<br><strong>eCommerce:</strong> Shopify (Liquid),
-    WordPress, WooCommerce.<br><strong>Database:</strong> MySQL, MongoDB,
-    PostgreSQL, Supabase.<br><strong>Cloud:</strong> AWS (EC2, S3, Lambda),
-    Docker.<br><strong>Tools:</strong> Git, GitHub Actions, Jira, Figma.
+    <strong>AI & Automation:</strong> Autonomous AI agents, LLM orchestration
+    (Claude), Multi-agent systems, Workflow automation, OpenClaw.<br><strong>Data
+    & Integration:</strong> Azure SQL / T-SQL, FiveTran, Hevo, Hex, Klaviyo,
+    Amazon SP API.<br><strong>eCommerce:</strong>
+    Shopify (Liquid, APIs, Flows), WordPress, WooCommerce.<br><strong>Cloud &
+    Infrastructure:</strong> Azure, AWS (EC2, S3, Lambda), Docker.<br><strong>Backend:</strong>
+    Python, Node.js, Laravel, PHP.<br><strong>Frontend:</strong> React, TypeScript,
+    JavaScript.<br><strong>Database:</strong> MySQL, MongoDB, PostgreSQL, Supabase.
 
-- question: Do you have experience working in teams?
+- question: Do you work with non-technical teams?
   answer: >
-    Yes. I've worked in agency environments, as part of distributed
-    international teams across multiple time zones, and alongside designers,
-    project managers, and other developers. I'm comfortable with Agile/Scrum
-    workflows, code reviews, and collaborative development.
+    Yes. Most of my work involves translating complex automation and AI
+    infrastructure into clear outcomes for business owners, operations leads,
+    and non-technical stakeholders. I've worked across distributed international
+    teams, managed stakeholder expectations, and delivered systems that ops
+    teams can own and run without ongoing engineering support.
 
 - question: What are your qualifications?
   answer: >
@@ -32,6 +31,6 @@
 
 - question: What industries have you worked in?
   answer: >
-    Digital agencies, eCommerce and retail, fintech (Bitcoin ATM software), real
-    estate technology, photography marketplaces, healthcare, fitness, and
-    professional services sectors.
+    eCommerce and retail, fintech and crypto infrastructure, business operations
+    and automation, real estate technology, and professional services — with a
+    focus on operations with high manual overhead and clear automation ROI.

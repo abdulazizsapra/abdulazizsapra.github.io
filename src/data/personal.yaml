@@ -1,61 +1,61 @@
 name: Abdul Aziz
-title: Software Engineer
-tagline: AI & commerce. Building practical tools.
-location: Gold Coast, QLD
+title: AI & Automation Solutions Architect
+tagline: AI agents & commerce systems. Building practical tools.
+location: Sydney, NSW
 country: Australia
-work_rights: Full work rights
 
 # Kept for footer/FAQ only; not surfaced in hero or snapshot
-availability: 2 weeks notice
 work_type: Permanent, full-time
 relocation: Open Australia-wide
 work_mode: Remote, hybrid, or on-site
 
 # Hero: headline = title; subheadline and supporting copy below
 subheadline: >
-  I build software that solves real problems. eCommerce, AI tools, automation.
+  I build AI systems that replace BI dashboards — instead of showing
+  decision-makers charts, the system tells them what's happening, why,
+  and what to do about it.
 supporting_copy: >
-  Make systems smarter, reduce manual work, help businesses run smoother.
-  Still curious. Still building.
+  Autonomous agents. Live data. Decision-grade analysis. No manual prep.
 
 summary: >
-  I build software that solves real problems. Most of my work is around
-  eCommerce, AI tools, and automation. I take messy problems and turn them into
-  clean, working systems. Technology moves quickly and I like staying close to
-  it, testing new tools, experimenting with ideas, and figuring out what
-  actually works in the real world. Still curious. Still building.
+  I design and deploy autonomous AI agents that replace manual reporting and
+  operational overhead. My current work involves building COMMAND — an autonomous
+  business intelligence agent ingesting 430,000+ customer records across 5 markets,
+  producing executive-grade analysis with zero human preparation time. I work at
+  the intersection of LLM orchestration, data engineering, and business strategy.
+  Not dashboards. Decisions. Still curious. Still building.
 
 about:
   - >
-    I'm a Software Engineer who builds software that solves real problems. Most
-    of my work is around eCommerce, AI tools, and automation. I choose tools
-    pragmatically: the right fit for the job, not the trendiest option. I care
-    about maintainability, performance, and business outcomes, and I work
-    effectively across stakeholders, agencies, internal teams, and direct client
-    engagements.
+    I'm an AI & Automation Solutions Architect specialising in autonomous agent
+    systems and operational intelligence. I build AI that doesn't just assist —
+    it acts. My focus is replacing manual reporting, fragmented data, and
+    repetitive operations with systems that run end-to-end, surface the right
+    information, and free teams to make faster decisions.
   - >
-    My work spans eCommerce, fintech, and enterprise web systems. I've shipped
-    production code across Shopify, Laravel, React, WordPress, and AWS, from
-    multi-vendor marketplaces and AI-powered features (e.g. AWS Rekognition) to
-    fintech infrastructure and 200+ page enterprise rebuilds. I hold a Master of
-    ICT from Griffith University and bring an outcome-focused approach to every
-    project.
+    My current work centres on LLM orchestration, multi-source data pipelines,
+    and commerce automation across multi-market eCommerce operations. I've built
+    autonomous agents ingesting 430,000+ records across Shopify, Amazon, Meta,
+    and Klaviyo; modelled 8 years of cohort retention data; and automated
+    intelligence covering $6.7M+ AUD in revenue. I hold a Master of ICT and
+    bring an outcome-first approach to every system I build.
 
 proof:
   - value: "5+"
-    label: Years Shipping Code
-  - value: "30+"
-    label: Projects Delivered
-  - value: "$1M+/mo"
-    label: eCommerce Systems
+    label: Years Building Systems
+  - value: "430K+"
+    label: Records Automated
+  - value: "$6.7M+"
+    label: Revenue Automated
 
 hero_tags:
-  - React / Node.js
-  - Laravel / PHP
-  - Shopify
-  - AI Commerce
-  - System Design
-  - AWS
+  - Autonomous AI Agents
+  - LLM Orchestration
+  - Data Pipelines
+  - Commerce Automation
+  - Multi-market Intelligence
+  - Azure / AWS
+  - Python
 
 links:
   email: hello@abdulaziz.au
@@ -69,36 +69,35 @@ contact_note: >
   I typically respond within 24 hours. For urgent enquiries, call or text.
 
 contact_intro: >
-  For collaborations, consulting, or engineering conversations. Get in touch below.
+  For collaborations, consulting, or automation projects. Get in touch below.
 
 industries:
-  - Digital Agencies
   - eCommerce & Retail
   - Fintech
+  - Business Operations & Automation
   - Real Estate Technology
-  - Healthcare
   - Professional Services
 
 core_stack:
-  Frontend: React, TypeScript, JavaScript
-  Backend: Node.js, Laravel, PHP
+  AI & Automation: Autonomous AI agents, LLM orchestration (Claude), Multi-agent systems, Workflow automation
+  Data & Integration: FiveTran, Hevo, Hex, Azure Pipelines, SQL
   eCommerce: Shopify, WordPress, WooCommerce
-  AI & Systems: AI integrations, System Design, Multi-agent systems, Automation
+  Cloud & Infrastructure: Azure, AWS, Docker, OpenClaw
+  Backend: Python, Node.js, Laravel, PHP
+  Frontend: React, TypeScript, JavaScript
   Database: MySQL, MongoDB, Supabase
-  Cloud: AWS, Docker
 
 how_i_work:
-  - Pragmatic technology choices: right tool for the job, not the trend.
-  - Ownership mentality; I ship and maintain production code.
-  - Business-aware engineering; outcomes, maintainability, and reliability.
-  - Clear technical communication with teams and stakeholders.
-  - Focus on maintainability, performance, and scalable solutions.
-  - Effective in greenfield builds, migrations, and optimisation work.
-  - Works well independently and in teams; comfortable with Agile workflows.
+  - Automation-first mindset; if it's done repeatedly by a human, it should be a system.
+  - Systems thinking over feature delivery; design for reliability and scale from day one.
+  - Business-aware architecture; operational efficiency and ROI drive every decision.
+  - Clear communication with stakeholders, ops teams, and non-technical decision-makers.
+  - End-to-end ownership; from design and build through to deployment and monitoring.
+  - Pragmatic tool choices; right fit for the job, not the trendiest option.
 
 meta:
-  title: "Abdul Aziz | Software Engineer | AI Integrations, Shopify & Commerce | Gold Coast, Australia"
-  description: "Software Engineer building practical AI tools and commerce systems. eCommerce, AI integrations, automation. React, Node, Laravel, Shopify. Portfolio and selected work. Gold Coast, Australia."
-  keywords: "Software Engineer Australia, AI Commerce, System Design, Shopify Developer, React Developer, Node.js Developer, Laravel Developer, eCommerce Developer, Gold Coast, Australia"
-  og_title: "Abdul Aziz | Software Engineer | AI Integrations & Commerce Systems"
-  og_description: "Software Engineer. AI integrations, Shopify & commerce systems. Building practical AI tools. React, Node, Laravel. Portfolio. Gold Coast, Australia."
+  title: "Abdul Aziz | AI & Automation Solutions Architect | AI Agents & Commerce Systems | Sydney, Australia"
+  description: "AI & Automation Solutions Architect building AI agents, data pipelines, and commerce automation systems. Python, Azure, Shopify, React, Node, Laravel. Portfolio and selected work. Sydney, Australia."
+  keywords: "AI Automation Architect Australia, AI Agents, Data Pipelines, Commerce Automation, Shopify Automation, Python Developer, Azure, Sydney, Australia"
+  og_title: "Abdul Aziz | AI & Automation Solutions Architect | AI Agents & Commerce Systems"
+  og_description: "AI & Automation Solutions Architect. AI agents, data pipelines, commerce automation. Python, Azure, Shopify. Portfolio. Sydney, Australia."

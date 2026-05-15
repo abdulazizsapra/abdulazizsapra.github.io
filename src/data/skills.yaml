@@ -1,66 +1,56 @@
-- group: AI & Systems
+- group: AI & Automation
   items:
-    - AI Commerce
-    - System Design
+    - Autonomous AI Agent Design
+    - LLM Orchestration (Claude / Anthropic)
     - Multi-agent Systems
-    - AI Integrations & Automation
-    - AWS Rekognition
-    - Practical AI Tools
+    - Workflow Automation
+    - AI-assisted Commerce
+    - Business Intelligence Automation
 
-- group: Frontend
+- group: Data & Integration
   items:
-    - React.js / React Native
-    - TypeScript / JavaScript (ES6+)
-    - HTML5 / CSS3 / Tailwind CSS
-    - Angular / Ionic
-    - Responsive Design
-    - Performance Optimisation
+    - Azure SQL / T-SQL
+    - FiveTran
+    - Hevo
+    - Hex
+    - Azure Data Pipelines
+    - OpenClaw
+    - REST API Integration
+
+- group: Commerce & Shopify
+  items:
+    - Shopify (Liquid, APIs, Flows)
+    - Shopify App Development
+    - Amazon SP API
+    - Klaviyo
+    - WordPress / WooCommerce
+    - Checkout Optimisation
+
+- group: Cloud & Infrastructure
+  items:
+    - Azure
+    - AWS (EC2, S3, Lambda)
+    - Docker
+    - Self-hosted AI Infrastructure
+    - Git / GitHub Actions
 
 - group: Backend
   items:
-    - Node.js / Express.js
-    - PHP (Laravel, CodeIgniter)
     - Python
+    - Node.js / Express.js
+    - Laravel / PHP
     - REST API Design
-    - GraphQL
-    - WebRTC / Red5Pro
     - Authentication (JWT, OAuth)
 
-- group: Databases
+- group: Frontend
+  items:
+    - React / React Native
+    - TypeScript / JavaScript
+    - Prisma
+
+- group: Database
   items:
     - MySQL / MariaDB
     - MongoDB
     - PostgreSQL
     - Supabase
-    - Database Design
-    - Query Optimisation
-
-- group: eCommerce & CMS
-  items:
-    - Shopify (Liquid, Themes, Apps)
-    - WordPress (Themes, Plugins, Elementor)
-    - WooCommerce
-    - Webflow
-    - Wix
-    - Multi-vendor Marketplaces
-    - Stripe / PayPal / Afterpay
-    - Checkout Optimisation
-
-- group: DevOps & Cloud
-  items:
-    - AWS (EC2, S3, Lambda, Rekognition)
-    - Docker
-    - CI/CD (GitHub Actions)
-    - Git / GitHub
-    - WP Engine
-    - Linux Server Administration
-    - DNS / SSL / CDN
-
-- group: Tools & Practices
-  items:
-    - Agile / Scrum
-    - Code Reviews
-    - Technical Documentation
-    - Jira / Trello / Wrike
-    - Figma (Design Handoff)
-    - API Integrations

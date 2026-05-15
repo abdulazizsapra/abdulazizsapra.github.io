@@ -5,6 +5,6 @@ export function renderFooter(personal) {
 
   renderInto('#site-footer .container', html`
     <p>${personal.name || ''} | ${personal.title || ''} | ${personal.location || ''}, ${personal.country || ''}</p>
-    <p class="footer-sub">${tags.join(' · ')} | ${personal.work_rights || ''}</p>
+    <p class="footer-sub">${tags.join(' · ')}</p>
   `);
 }

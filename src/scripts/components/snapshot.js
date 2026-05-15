@@ -1,7 +1,7 @@
 import { html, renderInto } from '../utils/dom.js';
 
 export function renderSnapshot(personal, education) {
-  const stack = personal.core_stack || {};
+  const proof = personal.proof || [];
   const industries = personal.industries || [];
   const firstEdu = education[0] || {};
   const secondEdu = education[1] || {};
@@ -10,7 +10,6 @@ export function renderSnapshot(personal, education) {
     { label: 'Role', value: personal.title || '' },
     { label: 'Experience', value: `${(personal.proof || [])[0]?.value || '5+'} years` },
     { label: 'Location', value: personal.location || '' },
-    { label: 'Work Rights', value: personal.work_rights || '' },
   ];
 
   renderInto('#snapshot .container', html`
@@ -32,19 +31,18 @@ export function renderSnapshot(personal, education) {
       <article class="snapshot-card snapshot-card--accent-1">
         <div class="snapshot-icon" aria-hidden="true">
           <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2">
-            <polyline points="16 18 22 12 16 6"/>
-            <polyline points="8 6 2 12 8 18"/>
+            <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/>
           </svg>
         </div>
-        <h3>Core Tech Stack</h3>
-        <dl class="snapshot-dl">
-          ${Object.entries(stack).map(([k, v]) => `
-            <div class="snapshot-dl__row">
-              <dt>${k}</dt>
-              <dd>${v}</dd>
+        <h3>By the Numbers</h3>
+        <div class="snapshot-proof">
+          ${proof.map(p => `
+            <div class="snapshot-proof__item">
+              <span class="snapshot-proof__value">${p.value}</span>
+              <span class="snapshot-proof__label">${p.label}</span>
             </div>
-          `)}
-        </dl>
+          `).join('')}
+        </div>
       </article>
       <article class="snapshot-card snapshot-card--accent-2">
         <div class="snapshot-icon" aria-hidden="true">

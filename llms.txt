@@ -1,11 +1,11 @@
 # Abdul Aziz, Portfolio
 
-> Software Engineer based in Gold Coast, Australia. AI integrations, Shopify & commerce systems, practical AI tools. Portfolio and selected work; collaborations and engineering conversations welcome.
+> AI & Automation Solutions Architect based in Sydney, Australia. AI agents, data pipelines, Shopify & commerce systems. Portfolio and selected work; collaborations and engineering conversations welcome.
 
-Abdul Aziz builds software that solves real problems. Focus: eCommerce, AI tools, and automation. Tech: React, Node, Laravel, Shopify, system design, multi-agent systems. Work spans eCommerce, fintech, marketplaces, and enterprise web systems.
+Abdul Aziz designs and builds AI automation infrastructure that powers business operations. Focus: AI agents, data pipelines, commerce automation, and end-to-end workflow automation. Tech: Python, Azure, FiveTran, Hevo, Hex, Shopify, React, Node, Laravel. Work spans eCommerce and retail, fintech, business operations, and professional services.
 
-- **Title:** Software Engineer
-- **Location:** Gold Coast, QLD, Australia
+- **Title:** AI & Automation Solutions Architect
+- **Location:** Sydney, NSW, Australia
 - **Experience:** 5+ years; 30+ projects delivered
 - **Education:** Master of ICT (Griffith University / Canterbury Institute of Management); BSc IT (Arid Agriculture University)
 - **Contact:** hello@abdulaziz.au | +61 451 556 175

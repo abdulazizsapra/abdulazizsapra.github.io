@@ -1,6 +1,61 @@
+- title: AI & Automation Solutions Architect
+  company: ConfidenceClub
+  location: Bondi Junction, Sydney
+  date: Mar 2026 - Present
+  achievements:
+    - >
+      Designed and deployed <strong>COMMAND</strong>, an autonomous business
+      intelligence agent querying live Azure SQL across 5 markets, ingesting
+      <strong>430,000+ customer-order records</strong> from Shopify, Amazon SP,
+      Meta Ads, and Klaviyo — producing autonomous executive briefings covering
+      <strong>$6.7M+ AUD YTD revenue</strong>, 41,000+ orders, ad spend
+      efficiency, and supply chain status with zero human preparation time.
+    - >
+      Built multi-source data pipelines (Azure SQL, SharePoint, Gmail, Slack)
+      reducing <strong>time-to-insight from hours to seconds</strong>.
+    - >
+      Automated inventory risk monitoring across <strong>500+ SKUs</strong> with
+      forward-looking stockout projections and buy-suggestion synthesis from live
+      warehouse data.
+    - >
+      Designed and validated a cohort retention model across 8 years and
+      <strong>24,700+ customers</strong>; identified that the existing model
+      underestimates loyal customer retention by up to <strong>2.4×</strong>
+      — leading to model recalibration.
+    - >
+      Deployed multilingual <strong>Aircall AI voice agents</strong> across 6
+      markets (AU, UK, FR, DE, IT, ES); built localised knowledge bases from
+      regional websites, product guidance, and FAQ content, supporting markets
+      with missed-call rates as high as <strong>68%</strong>.
+    - >
+      Built a <strong>dynamic Shopify checkout messaging app</strong> for EU
+      stores — displaying delivery guidance based on shipping method, product,
+      and variant rules using a hybrid Shopify metafields + Prisma database
+      architecture; helps prevent unsuitable locker delivery selections for
+      oversized cartons.
+    - >
+      Automated Shopify invoicing: PDF invoice generation and customer email
+      delivery, replacing hours of repetitive manual admin work for the
+      operations team.
+  tech:
+    - Python
+    - Azure SQL / T-SQL
+    - Claude / LLM Orchestration
+    - Aircall AI
+    - FiveTran
+    - Hevo
+    - Hex
+    - Shopify
+    - Prisma
+    - Amazon SP API
+    - Klaviyo
+    - Node.js
+    - OpenClaw
+    - Docker
+
 - title: Full Stack Developer
   company: Get Content
-  location: Gold Coast, Australia
+  location: Sydney, Australia
   date: 2023 - Jan 2026
   achievements:
     - >
@@ -19,8 +74,6 @@
     - >
       Worked on eCommerce systems processing $1M+/month; implemented checkout
       and UX improvements that reduced cart abandonment by 12-18%.
-    - >
-      Delivered 15+ production sites across WordPress, Shopify, and Laravel.
   tech:
     - Laravel
     - React
@@ -44,9 +97,6 @@
     - >
       Implemented error handling and transaction monitoring; reduced failed
       transaction rates and improved completion rates.
-    - >
-      Worked with distributed team across 3 time zones; daily standups, async
-      code reviews.
   tech:
     - Node.js
     - Python
@@ -66,8 +116,7 @@
       Integrated Google Geolocation APIs with custom geofencing; 95%+ arrival
       detection accuracy.
     - >
-      Implemented subscription billing with Stripe; shipped beta to TestFlight
-      and Google Play.
+      Implemented subscription billing and access control with Stripe.
   tech:
     - React Native
     - Node.js
@@ -84,13 +133,16 @@
       Built <strong>MigaPerformance</strong>, real-time commission and KPI
       dashboard for 50+ real estate agencies.
     - >
-      Created <strong>MigaWordPress</strong>, JWT-authenticated API for mobile
-      apps to consume WordPress content; adopted across app builder platform.
+      Built <strong>MigaWordPress</strong>: REST API integration layer connecting
+      WordPress to mobile apps via JWT — adopted as standard across the platform's
+      app builder.
     - >
-      Built <strong>MigaWhatsApp</strong> integration for drag-and-drop app
-      builder; clients added WhatsApp without code.
+      Built <strong>MigaWhatsApp</strong>: integrated WhatsApp APIs into a no-code
+      app builder, enabling clients to add automated messaging without any
+      engineering work.
     - >
-      Delivered UTM tracking system in Laravel for marketing attribution.
+      Delivered automated UTM tracking and attribution system in Laravel; replaced
+      manual campaign reporting with a self-updating dashboard.
   tech:
     - AngularJS
     - Ionic

@@ -7,7 +7,7 @@ export function renderExperience(experience) {
     <header class="section-header">
       <span class="section-label">Experience</span>
       <h2>Where I've Delivered Results</h2>
-      <p>5+ years of shipping production code across agencies, startups, and international teams.</p>
+      <p>From AI agents and data pipelines to commerce automation and fintech infrastructure.</p>
     </header>
     <div class="experience-list">
       ${experience.map(job => `

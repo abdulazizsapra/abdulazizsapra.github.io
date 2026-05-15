@@ -23,11 +23,10 @@ function projectCard(project) {
       <div class="project-outcome">
         <strong>Outcome:</strong> ${project.outcome || ''}
       </div>
-      ${project.url ? `
-        <a href="${project.url}" target="_blank" rel="noopener noreferrer" class="project-link">
-          Visit ${project.name} <span class="sr-only">(opens in new tab)</span> &rarr;
-        </a>
-      ` : ''}
+      ${project.url
+        ? `<a href="${project.url}" target="_blank" rel="noopener noreferrer" class="project-link">Visit ${project.name} <span class="sr-only">(opens in new tab)</span> &rarr;</a>`
+        : `<span class="project-no-url">Private infrastructure — no public URL</span>`
+      }
     </article>
   `;
 }

@@ -7,7 +7,7 @@ export function renderSkills(skills) {
     <header class="section-header">
       <span class="section-label">Technical Skills</span>
       <h2>My Toolbox</h2>
-      <p>Production-tested technologies I use to ship reliable software.</p>
+      <p>The tools and systems I use to design, build, and deploy AI and automation infrastructure.</p>
     </header>
     <div class="skills-grid">
       ${skills.map(group => `
