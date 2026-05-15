@@ -108,10 +108,13 @@ export function initCounterAnimation() {
     entries.forEach(entry => {
       if (entry.isIntersecting) {
         const el = entry.target;
-        const text = el.textContent;
-        if (/^\d+/.test(text)) {
-          const num = parseInt(text);
-          el.textContent = '0';
+        const text = el.textContent.trim();
+        const match = text.match(/^(\d+)(.*)/);
+        if (match) {
+          const num = parseInt(match[1]);
+          const suffix = match[2];
+          el.dataset.suffix = suffix;
+          el.textContent = '0' + suffix;
           animateValue(el, 0, num, 1500);
         }
         observer.unobserve(el);
