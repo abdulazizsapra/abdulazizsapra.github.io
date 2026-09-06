@@ -1,0 +1,273 @@
+:root {
+  --bg: #ffffff;
+  --text: #08090a;
+  --muted: #5c5f66;
+  --border: #e8e8ea;
+  --card: #f6f6f7;
+  --pill: #f0f0f2;
+  --dock: rgba(255, 255, 255, 0.86);
+  --shadow: 0 8px 28px rgba(8, 9, 10, 0.08);
+  --space: 8px;
+}
+
+html[data-theme="dark"] {
+  --bg: #08090a;
+  --text: #f4f4f5;
+  --muted: #a1a1aa;
+  --border: #27272a;
+  --card: #121316;
+  --pill: #1c1d21;
+  --dock: rgba(18, 19, 22, 0.86);
+  --shadow: 0 8px 28px rgba(0, 0, 0, 0.4);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  color: inherit;
+}
+
+.skip {
+  position: absolute;
+  left: -999px;
+  top: 8px;
+}
+
+.skip:focus {
+  left: 8px;
+  background: var(--bg);
+  padding: 8px 12px;
+  z-index: 10;
+}
+
+.wrap {
+  width: min(640px, calc(100% - 48px));
+  margin: 0 auto;
+  padding: 96px 0 140px;
+}
+
+.hero {
+  padding-bottom: 48px;
+}
+
+.hero h1 {
+  margin: 0 0 12px;
+  font-size: clamp(32px, 6vw, 44px);
+  font-weight: 700;
+  letter-spacing: -0.04em;
+  line-height: 1.15;
+}
+
+.hero p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 18px;
+  max-width: 36rem;
+}
+
+section {
+  padding: 28px 0;
+}
+
+section h2 {
+  margin: 0 0 16px;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  color: var(--muted);
+}
+
+.prose {
+  margin: 0;
+  max-width: 40rem;
+}
+
+.prose + .prose {
+  margin-top: 14px;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.job,
+.edu,
+.project {
+  display: grid;
+  grid-template-columns: 44px 1fr;
+  gap: 14px;
+  padding: 14px 12px;
+  border-radius: 12px;
+  text-decoration: none;
+  color: inherit;
+}
+
+a.job:hover,
+a.project:hover,
+a.edu:hover {
+  background: var(--card);
+}
+
+.mark {
+  width: 44px;
+  height: 44px;
+  border-radius: 999px;
+  background: var(--pill);
+  color: var(--text);
+  display: grid;
+  place-items: center;
+  font-size: 14px;
+  font-weight: 650;
+}
+
+.job-top,
+.edu-top,
+.project-top {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  align-items: baseline;
+}
+
+.job h3,
+.edu h3,
+.project h3 {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.when,
+.meta {
+  color: var(--muted);
+  font-size: 13px;
+  white-space: nowrap;
+}
+
+.role,
+.detail {
+  margin: 2px 0 0;
+  color: var(--muted);
+  font-size: 14px;
+}
+
+.job p,
+.project p {
+  margin: 8px 0 0;
+  font-size: 15px;
+  color: var(--text);
+}
+
+.pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.pills span {
+  background: var(--pill);
+  border-radius: 999px;
+  padding: 6px 12px;
+  font-size: 13px;
+}
+
+.contact p {
+  margin: 0;
+  max-width: 36rem;
+}
+
+.contact a {
+  text-underline-offset: 3px;
+}
+
+.dock {
+  position: fixed;
+  left: 50%;
+  bottom: 20px;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 4px;
+  padding: 6px;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: var(--dock);
+  box-shadow: var(--shadow);
+  backdrop-filter: blur(16px);
+  z-index: 5;
+}
+
+.dock a,
+.dock button {
+  width: 42px;
+  height: 42px;
+  border: 0;
+  border-radius: 999px;
+  background: transparent;
+  color: var(--text);
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+}
+
+.dock a:hover,
+.dock button:hover {
+  background: var(--card);
+}
+
+.dock svg {
+  width: 18px;
+  height: 18px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.8;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.hidden {
+  display: none;
+}
+
+@media (max-width: 640px) {
+  .wrap {
+    width: calc(100% - 32px);
+    padding-top: 64px;
+  }
+
+  .job-top,
+  .edu-top,
+  .project-top {
+    flex-direction: column;
+    gap: 2px;
+  }
+
+  .when {
+    white-space: normal;
+  }
+}
