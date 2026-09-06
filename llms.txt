@@ -2,13 +2,10 @@
 
 > I enjoy taking messy problems and turning them into clean, working systems.
 
-AI & Automation Solutions Architect at ConfidenceClub in Sydney. Builds agents, data pipelines, and commerce tools.
+AI & Automation Solutions Architect at ConfidenceClub in Sydney.
 
-- **Location:** Sydney, Australia
-- **Contact:** hello@abdulaziz.au
+- **Site:** https://www.abdulaziz.au/
+- **Email:** hello@abdulaziz.au
 - **LinkedIn:** https://www.linkedin.com/in/abdulazizsapra
 - **GitHub:** https://github.com/abdulazizsapra
-- **Site:** https://www.abdulaziz.au/
 - **لفظ:** https://www.abdulaziz.au/lafz/
-
-Simple static page. Sections: about, work, education, skills, selected work, contact.
