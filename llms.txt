@@ -2,7 +2,20 @@
 
 > I enjoy taking messy problems and turning them into clean, working systems.
 
+Abdul Aziz builds internal systems, AI agents and Shopify tools at ConfidenceClub in Sydney.
+
 - **Site:** https://www.abdulaziz.au/
 - **Email:** hello@abdulaziz.au
-- **LinkedIn:** https://www.linkedin.com/in/abdulazizsapra
-- **لفظ:** https://www.abdulaziz.au/lafz/
+- **LinkedIn:** https://www.linkedin.com/in/abdulazizsapra/
+
+## Selected work
+
+- Stock and purchase planning — an internal supply planning system that replaced Excel workbooks.
+- Invoicing and order risk — a Shopify app for NDIS, Support at Home and business orders.
+- Agents on live data — AI agents and pipelines that answer operational questions.
+
+## On my own
+
+- [Lafz](https://www.abdulaziz.au/lafz/) — a daily Urdu word game.
+- [Marie Kondo skill](https://github.com/abdulazizsapra/marie-kondo-skill) — an open-source Claude skill that audits interfaces for clutter.
+- ParkWaze — a parking-rules app for Sydney. In progress.

@@ -1,5 +1,5 @@
 # Robots.txt for abdulazizsapra.github.io
-# Full Stack Developer Portfolio - Abdulaziz Sapra
+# Personal site - Abdul Aziz
 
 User-agent: *
 Allow: /
