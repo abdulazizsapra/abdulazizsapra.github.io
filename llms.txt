@@ -2,7 +2,7 @@
 
 > I enjoy taking messy problems and turning them into clean, working systems.
 
-Abdul Aziz builds internal systems, AI agents and Shopify tools at ConfidenceClub in Sydney.
+Abdul Aziz builds internal systems, AI agents and Shopify tools at Invizi in Sydney.
 
 - **Site:** https://www.abdulaziz.au/
 - **Email:** hello@abdulaziz.au
