@@ -10,12 +10,15 @@ Abdul Aziz builds internal systems, AI agents and Shopify tools at ConfidenceClu
 
 ## Selected work
 
-- Stock and purchase planning — an internal supply planning system that replaced Excel workbooks.
-- Invoicing and order risk — a Shopify app for NDIS, Support at Home and business orders.
-- Agents on live data — AI agents and pipelines that answer operational questions.
+- **Stock and purchase planning** — internal supply planning system replacing Excel workbooks. Drafts container-filling purchase orders and follows them through to receipt.
+- **Invoicing and order risk** — Shopify app for NDIS, Support at Home and business orders, with expiry reminders and an order-risk check.
+- **Agents on live data** — AI agents answering operational questions in Slack, plus the pipelines behind them.
+- **[Lafz](https://www.abdulaziz.au/lafz/)** — a daily Urdu word game. 26,830 words, five guesses.
+- **[Marie Kondo skill](https://github.com/abdulazizsapra/marie-kondo-skill)** — an open-source Claude skill that audits interfaces for clutter.
+- **ParkWaze** — a parking-rules app for Sydney. In progress.
 
-## On my own
+## Notes
 
-- [Lafz](https://www.abdulaziz.au/lafz/) — a daily Urdu word game.
-- [Marie Kondo skill](https://github.com/abdulazizsapra/marie-kondo-skill) — an open-source Claude skill that audits interfaces for clutter.
-- ParkWaze — a parking-rules app for Sydney. In progress.
+- Subtract first. Most interfaces get better when you remove something.
+- Boring is a feature. A system that still works in five years beats one that impresses in a demo.
+- Automate the repeat. Once is a task; twice is a process.

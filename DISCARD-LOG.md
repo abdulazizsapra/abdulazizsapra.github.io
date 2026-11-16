@@ -5,6 +5,8 @@ Success action: click hello@abdulaziz.au.
 Rule: one-in-one-out. Do not put a discarded item back without removing something else.
 
 > **2026-11-16 — scope change.** The page still exists so a visitor can decide to email, but it now shows selected work. The test for any item: does it explain what Abdul builds, or change the email decision? No chronology, no achievements, no metrics.
+>
+> **2026-11-16 — second pass.** The first build was too empty and the portrait was weak. The page now uses a wide editorial grid, a system serif for the name, mono labels, and three short notes for voice. Still no webfonts, no cream paper, no cards and no images.
 
 | Item | Reason | Destination |
 |---|---|---|
@@ -28,14 +30,19 @@ Rule: one-in-one-out. Do not put a discarded item back without removing somethin
 | Cards, icons, screenshots, logos for projects | Chrome; the work list is type-only | deleted |
 | Availability / work-type block, proof stats, testimonials | Resume furniture | deleted |
 | Dark mode / theme toggle | Previously discarded; stays out | deleted |
+| Corporate cutout portrait on black | Weak photo; the page is stronger without a face | deleted — returns only with a better photograph |
+| Single narrow column with a mostly empty right side | Reads like a text file, not a page | deleted |
+| Generic tech blue accent | Says nothing about the person | deleted |
 
 ## Kept
 
 - Name
 - Two sentences (current role + what you do)
-- Selected work: three systems described by the work, not by name
-- On my own: Lafz, Marie Kondo skill, ParkWaze (in progress)
+- Wide editorial grid: hero, numbered work rows, three notes
+- Selected work: six items with status labels, no chronology or metrics
+- Notes: three short opinions, for voice
 - hello@abdulaziz.au
 - LinkedIn
 - Skip link
-- Small portrait in the masthead
+- System serif for the name and section titles; system sans for body; system mono for labels
+- One warm signal accent (`#a63a0a`) used sparingly
